@@ -1,0 +1,121 @@
+{
+  "batch": 2,
+  "source": "C:/Users/manib/Downloads/9ac678c5-bff2-41bf-a1fe-f4432bc67d5d.png",
+  "sourceSize": [
+    1619,
+    971
+  ],
+  "matched": [
+    {
+      "id": "osb_cat_breakfast_11",
+      "name": "Vadai",
+      "image": "/food-images/vadai.webp",
+      "rect": {
+        "left": 0,
+        "top": 80,
+        "width": 322,
+        "height": 320
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_12",
+      "name": "Sambar Vadai",
+      "image": "/food-images/sambar-vadai.webp",
+      "rect": {
+        "left": 327,
+        "top": 80,
+        "width": 318,
+        "height": 320
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_13",
+      "name": "Jumbo Breakfast",
+      "image": "/food-images/jumbo-breakfast.webp",
+      "rect": {
+        "left": 651,
+        "top": 80,
+        "width": 319,
+        "height": 320
+      }
+    },
+    {
+      "id": "osb_cat_dosa_1",
+      "name": "Kal Dosa",
+      "image": "/food-images/kal-dosa.webp",
+      "rect": {
+        "left": 975,
+        "top": 80,
+        "width": 317,
+        "height": 320
+      }
+    },
+    {
+      "id": "osb_cat_dosa_2",
+      "name": "Podi Dosa",
+      "image": "/food-images/podi-dosa.webp",
+      "rect": {
+        "left": 1298,
+        "top": 80,
+        "width": 321,
+        "height": 320
+      }
+    },
+    {
+      "id": "osb_cat_dosa_3",
+      "name": "Onion Dosa",
+      "image": "/food-images/onion-dosa.webp",
+      "rect": {
+        "left": 0,
+        "top": 510,
+        "width": 322,
+        "height": 344
+      }
+    },
+    {
+      "id": "osb_cat_dosa_4",
+      "name": "Ghee Dosa",
+      "image": "/food-images/ghee-dosa.webp",
+      "rect": {
+        "left": 327,
+        "top": 510,
+        "width": 318,
+        "height": 344
+      }
+    },
+    {
+      "id": "osb_cat_dosa_5",
+      "name": "Egg Dosa",
+      "image": "/food-images/egg-dosa.webp",
+      "rect": {
+        "left": 651,
+        "top": 510,
+        "width": 319,
+        "height": 344
+      }
+    },
+    {
+      "id": "osb_cat_salad_1",
+      "name": "Healthy Salad Plate",
+      "image": "/food-images/healthy-salad-plate.webp",
+      "rect": {
+        "left": 975,
+        "top": 510,
+        "width": 317,
+        "height": 344
+      }
+    },
+    {
+      "id": "osb_cat_lunch_1",
+      "name": "Veg Meals",
+      "image": "/food-images/veg-meals.webp",
+      "rect": {
+        "left": 1298,
+        "top": 510,
+        "width": 321,
+        "height": 344
+      }
+    }
+  ],
+  "verification": "Exactly 10 asset files replaced. Other 88 images, including all of batch 1, and all application code unchanged. Native crops without enlargement; captions excluded."
+}

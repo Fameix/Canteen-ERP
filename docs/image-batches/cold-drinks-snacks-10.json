@@ -1,0 +1,308 @@
+{
+  "batch": 10,
+  "matched": 10,
+  "unassigned": 10,
+  "items": [
+    {
+      "source": "C:/Users/manib/Downloads/c09ef138-6b9e-4651-adbe-9f75aad6d96c.png",
+      "sourceLabel": "Rose Milk",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 0,
+        "top": 65,
+        "width": 305,
+        "height": 375
+      },
+      "downloadImage": "images/1-rose-milk.webp",
+      "status": "no clear matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c09ef138-6b9e-4651-adbe-9f75aad6d96c.png",
+      "sourceLabel": "Badam Pisin",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 310,
+        "top": 65,
+        "width": 301,
+        "height": 375
+      },
+      "downloadImage": "images/1-badam-pisin.webp",
+      "status": "no clear matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c09ef138-6b9e-4651-adbe-9f75aad6d96c.png",
+      "sourceLabel": "Nannari Sarbath",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 616,
+        "top": 65,
+        "width": 305,
+        "height": 375
+      },
+      "downloadImage": "images/1-nannari-sarbath.webp",
+      "status": "duplicate match; second sheet version used"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c09ef138-6b9e-4651-adbe-9f75aad6d96c.png",
+      "sourceLabel": "Lassi",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 926,
+        "top": 65,
+        "width": 302,
+        "height": 375
+      },
+      "downloadImage": "images/1-lassi.webp",
+      "status": "duplicate match; second sheet version used"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c09ef138-6b9e-4651-adbe-9f75aad6d96c.png",
+      "sourceLabel": "Sweet Lassi",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 1233,
+        "top": 65,
+        "width": 303,
+        "height": 375
+      },
+      "downloadImage": "images/1-sweet-lassi.webp",
+      "status": "duplicate match; second sheet version used"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c09ef138-6b9e-4651-adbe-9f75aad6d96c.png",
+      "sourceLabel": "Mango Lassi",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 0,
+        "top": 535,
+        "width": 305,
+        "height": 355
+      },
+      "downloadImage": "images/1-mango-lassi.webp",
+      "status": "no clear matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c09ef138-6b9e-4651-adbe-9f75aad6d96c.png",
+      "sourceLabel": "Carrot Lassi",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 310,
+        "top": 535,
+        "width": 301,
+        "height": 355
+      },
+      "downloadImage": "images/1-carrot-lassi.webp",
+      "status": "no clear matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c09ef138-6b9e-4651-adbe-9f75aad6d96c.png",
+      "sourceLabel": "Banana Lassi",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 616,
+        "top": 535,
+        "width": 305,
+        "height": 355
+      },
+      "downloadImage": "images/1-banana-lassi.webp",
+      "status": "no clear matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c09ef138-6b9e-4651-adbe-9f75aad6d96c.png",
+      "sourceLabel": "Fruit Salad",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 926,
+        "top": 535,
+        "width": 302,
+        "height": 355
+      },
+      "downloadImage": "images/1-fruit-salad.webp",
+      "status": "no clear matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c09ef138-6b9e-4651-adbe-9f75aad6d96c.png",
+      "sourceLabel": "Ice Cream",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 1233,
+        "top": 535,
+        "width": 303,
+        "height": 355
+      },
+      "downloadImage": "images/1-ice-cream.webp",
+      "status": "mixed-flavour Ice Cream does not match a specific flavour or serving"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/974ff05b-d955-4fba-aad8-0a990330b002.png",
+      "sourceLabel": "Lemon Soda",
+      "id": "osb_cat_cold_beverages_2",
+      "menuName": "Lemon Soda",
+      "image": "/food-images/lemon-soda.webp",
+      "rect": {
+        "left": 0,
+        "top": 65,
+        "width": 305,
+        "height": 385
+      },
+      "downloadImage": "images/2-lemon-soda.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/974ff05b-d955-4fba-aad8-0a990330b002.png",
+      "sourceLabel": "Nannari Sarbath",
+      "id": "osb_cat_cold_beverages_3",
+      "menuName": "Nannari Sarbath",
+      "image": "/food-images/nannari-sarbath.webp",
+      "rect": {
+        "left": 310,
+        "top": 65,
+        "width": 301,
+        "height": 385
+      },
+      "downloadImage": "images/2-nannari-sarbath.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/974ff05b-d955-4fba-aad8-0a990330b002.png",
+      "sourceLabel": "Lassi",
+      "id": "osb_cat_cold_beverages_4",
+      "menuName": "Lassi",
+      "image": "/food-images/lassi.webp",
+      "rect": {
+        "left": 616,
+        "top": 65,
+        "width": 305,
+        "height": 385
+      },
+      "downloadImage": "images/2-lassi.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/974ff05b-d955-4fba-aad8-0a990330b002.png",
+      "sourceLabel": "Naval Pala Sarbath",
+      "id": "osb_cat_cold_beverages_5",
+      "menuName": "Naval Pala Sarbath",
+      "image": "/food-images/naval-pala-sarbath.webp",
+      "rect": {
+        "left": 926,
+        "top": 65,
+        "width": 302,
+        "height": 385
+      },
+      "downloadImage": "images/2-naval-pala-sarbath.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/974ff05b-d955-4fba-aad8-0a990330b002.png",
+      "sourceLabel": "Mint Lemonade",
+      "id": "osb_cat_cold_beverages_6",
+      "menuName": "Mint Lemonade",
+      "image": "/food-images/mint-lemonade.webp",
+      "rect": {
+        "left": 1233,
+        "top": 65,
+        "width": 303,
+        "height": 385
+      },
+      "downloadImage": "images/2-mint-lemonade.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/974ff05b-d955-4fba-aad8-0a990330b002.png",
+      "sourceLabel": "Sprouted Green Grams",
+      "id": "osb_cat_healthy_snacks_1",
+      "menuName": "Sprouted Green Grams",
+      "image": "/food-images/sprouted-green-grams.webp",
+      "rect": {
+        "left": 0,
+        "top": 580,
+        "width": 305,
+        "height": 325
+      },
+      "downloadImage": "images/2-sprouted-green-grams.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/974ff05b-d955-4fba-aad8-0a990330b002.png",
+      "sourceLabel": "Sundal",
+      "id": "osb_cat_healthy_snacks_2",
+      "menuName": "Sundal",
+      "image": "/food-images/sundal.webp",
+      "rect": {
+        "left": 310,
+        "top": 580,
+        "width": 301,
+        "height": 325
+      },
+      "downloadImage": "images/2-sundal.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/974ff05b-d955-4fba-aad8-0a990330b002.png",
+      "sourceLabel": "Verkadalai",
+      "id": "osb_cat_healthy_snacks_3",
+      "menuName": "Verkadalai",
+      "image": "/food-images/verkadalai.webp",
+      "rect": {
+        "left": 616,
+        "top": 580,
+        "width": 305,
+        "height": 325
+      },
+      "downloadImage": "images/2-verkadalai.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/974ff05b-d955-4fba-aad8-0a990330b002.png",
+      "sourceLabel": "Corn",
+      "id": "osb_cat_healthy_snacks_4",
+      "menuName": "Corn",
+      "image": "/food-images/corn.webp",
+      "rect": {
+        "left": 926,
+        "top": 580,
+        "width": 302,
+        "height": 325
+      },
+      "downloadImage": "images/2-corn.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/974ff05b-d955-4fba-aad8-0a990330b002.png",
+      "sourceLabel": "Sweet Potato",
+      "id": "osb_cat_healthy_snacks_5",
+      "menuName": "Sweet Potato",
+      "image": "/food-images/sweet-potato.webp",
+      "rect": {
+        "left": 1233,
+        "top": 580,
+        "width": 303,
+        "height": 325
+      },
+      "downloadImage": "images/2-sweet-potato.webp",
+      "status": "replaced"
+    }
+  ],
+  "verification": "10 matched product images replaced. Other 88 images and all application source code unchanged. Captions removed; native crop pixels preserved."
+}

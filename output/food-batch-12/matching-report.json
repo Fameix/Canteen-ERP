@@ -1,0 +1,359 @@
+{
+  "batch": 12,
+  "matchedProducts": 15,
+  "matchedSourcePictures": 12,
+  "unmatchedSourcePictures": 8,
+  "items": [
+    {
+      "source": "C:/Users/manib/Downloads/c4578602-b2e0-417a-89ee-8a084958ae20.png",
+      "sourceLabel": "Watermelon Juice",
+      "rect": {
+        "left": 0,
+        "top": 40,
+        "width": 305,
+        "height": 410
+      },
+      "downloadImage": "images/1-watermelon-juice.webp",
+      "matches": [
+        {
+          "id": "osb_cat_juice_9",
+          "name": "Watermelon",
+          "image": "/food-images/watermelon-juice.webp"
+        }
+      ],
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c4578602-b2e0-417a-89ee-8a084958ae20.png",
+      "sourceLabel": "Pomegranate Juice",
+      "rect": {
+        "left": 310,
+        "top": 40,
+        "width": 301,
+        "height": 410
+      },
+      "downloadImage": "images/1-pomegranate-juice.webp",
+      "matches": [
+        {
+          "id": "osb_cat_juice_10",
+          "name": "Pomegranate",
+          "image": "/food-images/pomegranate-juice.webp"
+        }
+      ],
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c4578602-b2e0-417a-89ee-8a084958ae20.png",
+      "sourceLabel": "Pineapple Juice",
+      "rect": {
+        "left": 616,
+        "top": 40,
+        "width": 305,
+        "height": 410
+      },
+      "downloadImage": "images/1-pineapple-juice.webp",
+      "matches": [
+        {
+          "id": "osb_cat_juice_11",
+          "name": "Pineapple",
+          "image": "/food-images/pineapple-juice.webp"
+        }
+      ],
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c4578602-b2e0-417a-89ee-8a084958ae20.png",
+      "sourceLabel": "Mosambi Juice",
+      "rect": {
+        "left": 926,
+        "top": 40,
+        "width": 302,
+        "height": 410
+      },
+      "downloadImage": "images/1-mosambi-juice.webp",
+      "matches": [
+        {
+          "id": "osb_cat_juice_12",
+          "name": "Mosambi",
+          "image": "/food-images/mosambi-juice.webp"
+        }
+      ],
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c4578602-b2e0-417a-89ee-8a084958ae20.png",
+      "sourceLabel": "Apple Juice",
+      "rect": {
+        "left": 1233,
+        "top": 40,
+        "width": 303,
+        "height": 410
+      },
+      "downloadImage": "images/1-apple-juice.webp",
+      "matches": [
+        {
+          "id": "osb_cat_juice_13",
+          "name": "Apple",
+          "image": "/food-images/apple-juice.webp"
+        }
+      ],
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c4578602-b2e0-417a-89ee-8a084958ae20.png",
+      "sourceLabel": "Veg Maggie",
+      "rect": {
+        "left": 0,
+        "top": 550,
+        "width": 305,
+        "height": 355
+      },
+      "downloadImage": "images/1-veg-maggie.webp",
+      "matches": [
+        {
+          "id": "osb_cat_maggie_1",
+          "name": "Veg Maggie",
+          "image": "/food-images/veg-maggie.webp"
+        }
+      ],
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c4578602-b2e0-417a-89ee-8a084958ae20.png",
+      "sourceLabel": "Cheese Maggie",
+      "rect": {
+        "left": 310,
+        "top": 550,
+        "width": 301,
+        "height": 355
+      },
+      "downloadImage": "images/1-cheese-maggie.webp",
+      "matches": [
+        {
+          "id": "osb_cat_maggie_2",
+          "name": "Cheese Maggie",
+          "image": "/food-images/cheese-maggie.webp"
+        }
+      ],
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c4578602-b2e0-417a-89ee-8a084958ae20.png",
+      "sourceLabel": "Egg Maggie",
+      "rect": {
+        "left": 616,
+        "top": 550,
+        "width": 305,
+        "height": 355
+      },
+      "downloadImage": "images/1-egg-maggie.webp",
+      "matches": [
+        {
+          "id": "osb_cat_maggie_3",
+          "name": "Egg Maggie",
+          "image": "/food-images/egg-maggie.webp"
+        }
+      ],
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c4578602-b2e0-417a-89ee-8a084958ae20.png",
+      "sourceLabel": "Masala Maggie",
+      "rect": {
+        "left": 926,
+        "top": 550,
+        "width": 302,
+        "height": 355
+      },
+      "downloadImage": "images/1-masala-maggie.webp",
+      "matches": [
+        {
+          "id": "osb_cat_maggie_4",
+          "name": "Masala Maggie",
+          "image": "/food-images/masala-maggie.webp"
+        }
+      ],
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/c4578602-b2e0-417a-89ee-8a084958ae20.png",
+      "sourceLabel": "Vanilla Ice Cream",
+      "rect": {
+        "left": 1233,
+        "top": 550,
+        "width": 303,
+        "height": 355
+      },
+      "downloadImage": "images/1-vanilla-ice-cream.webp",
+      "matches": [
+        {
+          "id": "osb_cat_ice_cream_1",
+          "name": "Vanilla (1 scoop)",
+          "image": "/food-images/vanilla-ice-cream.webp"
+        },
+        {
+          "id": "osb_cat_ice_cream_2",
+          "name": "Vanilla (2 scoops)",
+          "image": "/food-images/vanilla-2-scoop.webp"
+        }
+      ],
+      "status": "replaced",
+      "note": "Shared flavour illustration for 1- and 2-scoop variants; image does not represent exact serving size."
+    },
+    {
+      "source": "C:/Users/manib/Downloads/2894b1fc-64a4-4629-988d-c77712726480.png",
+      "sourceLabel": "Chocolate Ice Cream",
+      "rect": {
+        "left": 0,
+        "top": 20,
+        "width": 305,
+        "height": 420
+      },
+      "downloadImage": "images/2-chocolate-ice-cream.webp",
+      "matches": [
+        {
+          "id": "osb_cat_ice_cream_5",
+          "name": "Chocolate (1 scoop)",
+          "image": "/food-images/chocolate-ice-cream.webp"
+        },
+        {
+          "id": "osb_cat_ice_cream_6",
+          "name": "Chocolate (2 scoops)",
+          "image": "/food-images/chocolate-2-scoop.webp"
+        }
+      ],
+      "status": "replaced",
+      "note": "Shared flavour illustration for 1- and 2-scoop variants; image does not represent exact serving size."
+    },
+    {
+      "source": "C:/Users/manib/Downloads/2894b1fc-64a4-4629-988d-c77712726480.png",
+      "sourceLabel": "Strawberry Ice Cream",
+      "rect": {
+        "left": 310,
+        "top": 20,
+        "width": 301,
+        "height": 420
+      },
+      "downloadImage": "images/2-strawberry-ice-cream.webp",
+      "matches": [
+        {
+          "id": "osb_cat_ice_cream_3",
+          "name": "Strawberry (1 scoop)",
+          "image": "/food-images/strawberry-ice-cream.webp"
+        },
+        {
+          "id": "osb_cat_ice_cream_4",
+          "name": "Strawberry (2 scoops)",
+          "image": "/food-images/strawberry-2-scoop.webp"
+        }
+      ],
+      "status": "replaced",
+      "note": "Shared flavour illustration for 1- and 2-scoop variants; image does not represent exact serving size."
+    },
+    {
+      "source": "C:/Users/manib/Downloads/2894b1fc-64a4-4629-988d-c77712726480.png",
+      "sourceLabel": "Butterscotch Ice Cream",
+      "rect": {
+        "left": 616,
+        "top": 20,
+        "width": 305,
+        "height": 420
+      },
+      "downloadImage": "images/2-butterscotch-ice-cream.webp",
+      "matches": [],
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/2894b1fc-64a4-4629-988d-c77712726480.png",
+      "sourceLabel": "Black Currant Ice Cream",
+      "rect": {
+        "left": 926,
+        "top": 20,
+        "width": 302,
+        "height": 420
+      },
+      "downloadImage": "images/2-black-currant-ice-cream.webp",
+      "matches": [],
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/2894b1fc-64a4-4629-988d-c77712726480.png",
+      "sourceLabel": "Falooda",
+      "rect": {
+        "left": 1233,
+        "top": 20,
+        "width": 303,
+        "height": 420
+      },
+      "downloadImage": "images/2-falooda.webp",
+      "matches": [],
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/2894b1fc-64a4-4629-988d-c77712726480.png",
+      "sourceLabel": "Fresh Fruit Salad",
+      "rect": {
+        "left": 0,
+        "top": 565,
+        "width": 305,
+        "height": 320
+      },
+      "downloadImage": "images/2-fresh-fruit-salad.webp",
+      "matches": [],
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/2894b1fc-64a4-4629-988d-c77712726480.png",
+      "sourceLabel": "Dry Fruit Salad",
+      "rect": {
+        "left": 310,
+        "top": 565,
+        "width": 301,
+        "height": 320
+      },
+      "downloadImage": "images/2-dry-fruit-salad.webp",
+      "matches": [],
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/2894b1fc-64a4-4629-988d-c77712726480.png",
+      "sourceLabel": "Fruit Custard",
+      "rect": {
+        "left": 616,
+        "top": 565,
+        "width": 305,
+        "height": 320
+      },
+      "downloadImage": "images/2-fruit-custard.webp",
+      "matches": [],
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/2894b1fc-64a4-4629-988d-c77712726480.png",
+      "sourceLabel": "Fruit with Ice Cream",
+      "rect": {
+        "left": 926,
+        "top": 565,
+        "width": 302,
+        "height": 320
+      },
+      "downloadImage": "images/2-fruit-with-ice-cream.webp",
+      "matches": [],
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/2894b1fc-64a4-4629-988d-c77712726480.png",
+      "sourceLabel": "Honey Dates & Nuts",
+      "rect": {
+        "left": 1233,
+        "top": 565,
+        "width": 303,
+        "height": 320
+      },
+      "downloadImage": "images/2-honey-dates-and-nuts.webp",
+      "matches": [],
+      "status": "no matching existing product"
+    }
+  ],
+  "verification": "15 product images replaced. Other 83 images and all application source code unchanged. Captions removed; native crop pixels preserved. Ice cream scoop variants share flavour images."
+}

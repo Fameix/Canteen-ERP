@@ -1,0 +1,1070 @@
+{
+  "source": "C:/Users/manib/Downloads/b5c50d4e-51e8-49b4-a001-2bde46ab79a3.png",
+  "sourceHash": "8e49a0ed348b482f4904de8a18378464f8ce374b1630a6e850554e7d5b27b0a2",
+  "sourceWidth": 1536,
+  "sourceHeight": 1024,
+  "matched": [
+    {
+      "id": "osb_cat_breakfast_1",
+      "name": "Idly (2pcs)",
+      "image": "/food-images/idly.webp",
+      "rect": {
+        "left": 9,
+        "top": 8,
+        "width": 140,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_2",
+      "name": "Podi Idly (2pcs)",
+      "image": "/food-images/podi-idly.webp",
+      "rect": {
+        "left": 161,
+        "top": 8,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_3",
+      "name": "Chapathi",
+      "image": "/food-images/chapathi.webp",
+      "rect": {
+        "left": 314,
+        "top": 8,
+        "width": 142,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_4",
+      "name": "Parotta",
+      "image": "/food-images/parotta.webp",
+      "rect": {
+        "left": 468,
+        "top": 8,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_5",
+      "name": "Pongal",
+      "image": "/food-images/pongal.webp",
+      "rect": {
+        "left": 620,
+        "top": 8,
+        "width": 142,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_6",
+      "name": "Ragi Puttu",
+      "image": "/food-images/ragi-puttu.webp",
+      "rect": {
+        "left": 773,
+        "top": 8,
+        "width": 142,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_7",
+      "name": "Aval Upuma",
+      "image": "/food-images/aval-upuma.webp",
+      "rect": {
+        "left": 927,
+        "top": 8,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_8",
+      "name": "Ragi Upuma",
+      "image": "/food-images/ragi-upuma.webp",
+      "rect": {
+        "left": 1080,
+        "top": 8,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_9",
+      "name": "Rava Upuma",
+      "image": "/food-images/rava-upuma.webp",
+      "rect": {
+        "left": 1233,
+        "top": 8,
+        "width": 142,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_10",
+      "name": "Idiyappam Thengai Paal",
+      "image": "/food-images/idiyappam-thengai-paal.webp",
+      "rect": {
+        "left": 1387,
+        "top": 8,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_11",
+      "name": "Vadai",
+      "image": "/food-images/vadai.webp",
+      "rect": {
+        "left": 9,
+        "top": 125,
+        "width": 140,
+        "height": 100
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_12",
+      "name": "Sambar Vadai",
+      "image": "/food-images/sambar-vadai.webp",
+      "rect": {
+        "left": 161,
+        "top": 125,
+        "width": 141,
+        "height": 100
+      }
+    },
+    {
+      "id": "osb_cat_dosa_1",
+      "name": "Kal Dosa",
+      "image": "/food-images/kal-dosa.webp",
+      "rect": {
+        "left": 314,
+        "top": 125,
+        "width": 142,
+        "height": 100
+      }
+    },
+    {
+      "id": "osb_cat_dosa_2",
+      "name": "Podi Dosa",
+      "image": "/food-images/podi-dosa.webp",
+      "rect": {
+        "left": 468,
+        "top": 125,
+        "width": 141,
+        "height": 100
+      }
+    },
+    {
+      "id": "osb_cat_dosa_3",
+      "name": "Onion Dosa",
+      "image": "/food-images/onion-dosa.webp",
+      "rect": {
+        "left": 620,
+        "top": 125,
+        "width": 142,
+        "height": 100
+      }
+    },
+    {
+      "id": "osb_cat_dosa_4",
+      "name": "Ghee Dosa",
+      "image": "/food-images/ghee-dosa.webp",
+      "rect": {
+        "left": 773,
+        "top": 125,
+        "width": 142,
+        "height": 100
+      }
+    },
+    {
+      "id": "osb_cat_dosa_5",
+      "name": "Egg Dosa",
+      "image": "/food-images/egg-dosa.webp",
+      "rect": {
+        "left": 927,
+        "top": 125,
+        "width": 141,
+        "height": 100
+      }
+    },
+    {
+      "id": "osb_cat_salad_1",
+      "name": "Healthy Salad Plate",
+      "image": "/food-images/healthy-salad-plate.webp",
+      "rect": {
+        "left": 1080,
+        "top": 125,
+        "width": 141,
+        "height": 100
+      }
+    },
+    {
+      "id": "osb_cat_lunch_1",
+      "name": "Veg Meals",
+      "image": "/food-images/veg-meals.webp",
+      "rect": {
+        "left": 1233,
+        "top": 125,
+        "width": 142,
+        "height": 100
+      }
+    },
+    {
+      "id": "osb_cat_lunch_2",
+      "name": "Non Veg Meals",
+      "image": "/food-images/non-veg-meals.webp",
+      "rect": {
+        "left": 1387,
+        "top": 125,
+        "width": 141,
+        "height": 100
+      }
+    },
+    {
+      "id": "osb_cat_lunch_3",
+      "name": "Chicken Biryani",
+      "image": "/food-images/chicken-biryani.webp",
+      "rect": {
+        "left": 9,
+        "top": 248,
+        "width": 140,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_lunch_4",
+      "name": "Chicken 65 Biryani",
+      "image": "/food-images/chicken-65-biryani.webp",
+      "rect": {
+        "left": 161,
+        "top": 248,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_lunch_5",
+      "name": "Veg Biryani",
+      "image": "/food-images/veg-biryani.webp",
+      "rect": {
+        "left": 314,
+        "top": 248,
+        "width": 142,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_lunch_6",
+      "name": "Veg Pulao",
+      "image": "/food-images/veg-pulao.webp",
+      "rect": {
+        "left": 468,
+        "top": 248,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_lunch_7",
+      "name": "Variety Rice",
+      "image": "/food-images/variety-rice.webp",
+      "rect": {
+        "left": 620,
+        "top": 248,
+        "width": 142,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_egg_1",
+      "name": "Boiled Egg",
+      "image": "/food-images/boiled-egg.webp",
+      "rect": {
+        "left": 773,
+        "top": 248,
+        "width": 142,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_egg_2",
+      "name": "Mutta Thokku",
+      "image": "/food-images/muttai-thokku.webp",
+      "rect": {
+        "left": 927,
+        "top": 248,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_egg_3",
+      "name": "Omlette",
+      "image": "/food-images/omlette.webp",
+      "rect": {
+        "left": 1080,
+        "top": 248,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_egg_4",
+      "name": "Murungakeerai Omlette",
+      "image": "/food-images/murungakeerai-omlette.webp",
+      "rect": {
+        "left": 1233,
+        "top": 248,
+        "width": 142,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_chicken_1",
+      "name": "Green Chicken",
+      "image": "/food-images/green-chicken.webp",
+      "rect": {
+        "left": 1387,
+        "top": 248,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_chicken_2",
+      "name": "Chettinadu Chicken",
+      "image": "/food-images/chettinadu-chicken.webp",
+      "rect": {
+        "left": 9,
+        "top": 365,
+        "width": 140,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_chicken_3",
+      "name": "Pepper Chicken",
+      "image": "/food-images/pepper-chicken.webp",
+      "rect": {
+        "left": 161,
+        "top": 365,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_chicken_4",
+      "name": "Chicken 65",
+      "image": "/food-images/chicken-65.webp",
+      "rect": {
+        "left": 314,
+        "top": 365,
+        "width": 142,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_soup_1",
+      "name": "Mooligai Soup",
+      "image": "/food-images/mooligai-soup.webp",
+      "rect": {
+        "left": 468,
+        "top": 365,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_soup_2",
+      "name": "Mudavattu Kilangu Soup",
+      "image": "/food-images/mudavattu-kilangu-soup.webp",
+      "rect": {
+        "left": 620,
+        "top": 365,
+        "width": 142,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_soup_3",
+      "name": "Veg Mushroom Soup",
+      "image": "/food-images/veg-mushroom-soup.webp",
+      "rect": {
+        "left": 773,
+        "top": 365,
+        "width": 142,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_soup_4",
+      "name": "Murungakeerai Soup",
+      "image": "/food-images/murungakeerai-soup.webp",
+      "rect": {
+        "left": 927,
+        "top": 365,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_1",
+      "name": "Milk",
+      "image": "/food-images/milk.webp",
+      "rect": {
+        "left": 1080,
+        "top": 365,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_2",
+      "name": "Coffee",
+      "image": "/food-images/coffee.webp",
+      "rect": {
+        "left": 1233,
+        "top": 365,
+        "width": 142,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_3",
+      "name": "Tea",
+      "image": "/food-images/tea.webp",
+      "rect": {
+        "left": 1387,
+        "top": 365,
+        "width": 141,
+        "height": 94
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_4",
+      "name": "Black Coffee",
+      "image": "/food-images/black-coffee.webp",
+      "rect": {
+        "left": 9,
+        "top": 482,
+        "width": 140,
+        "height": 93
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_5",
+      "name": "Black Tea",
+      "image": "/food-images/black-tea.webp",
+      "rect": {
+        "left": 161,
+        "top": 482,
+        "width": 141,
+        "height": 93
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_6",
+      "name": "Lemon Tea",
+      "image": "/food-images/lemon-tea.webp",
+      "rect": {
+        "left": 314,
+        "top": 482,
+        "width": 142,
+        "height": 93
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_7",
+      "name": "Honey Lemon Tea",
+      "image": "/food-images/honey-lemon-tea.webp",
+      "rect": {
+        "left": 468,
+        "top": 482,
+        "width": 141,
+        "height": 93
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_8",
+      "name": "Boost",
+      "image": "/food-images/boost.webp",
+      "rect": {
+        "left": 620,
+        "top": 482,
+        "width": 142,
+        "height": 93
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_9",
+      "name": "Horlicks",
+      "image": "/food-images/horlicks.webp",
+      "rect": {
+        "left": 773,
+        "top": 482,
+        "width": 142,
+        "height": 93
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_10",
+      "name": "Badam Milk",
+      "image": "/food-images/badam-milk.webp",
+      "rect": {
+        "left": 927,
+        "top": 482,
+        "width": 141,
+        "height": 93
+      }
+    },
+    {
+      "id": "osb_cat_herbal_drink_1",
+      "name": "Sukku Malli Coffee",
+      "image": "/food-images/sukku-malli-coffee.webp",
+      "rect": {
+        "left": 1080,
+        "top": 482,
+        "width": 141,
+        "height": 93
+      }
+    },
+    {
+      "id": "osb_cat_herbal_drink_2",
+      "name": "Sangu Poo Tea",
+      "image": "/food-images/sangu-poo-tea.webp",
+      "rect": {
+        "left": 1233,
+        "top": 482,
+        "width": 142,
+        "height": 93
+      }
+    },
+    {
+      "id": "osb_cat_herbal_drink_3",
+      "name": "Avaram Poo Tea",
+      "image": "/food-images/avaram-poo-tea.webp",
+      "rect": {
+        "left": 1387,
+        "top": 482,
+        "width": 141,
+        "height": 93
+      }
+    },
+    {
+      "id": "osb_cat_herbal_drink_4",
+      "name": "Hibiscus Tea",
+      "image": "/food-images/hibiscus-tea.webp",
+      "rect": {
+        "left": 9,
+        "top": 599,
+        "width": 140,
+        "height": 92
+      }
+    },
+    {
+      "id": "osb_cat_herbal_drink_5",
+      "name": "Samanthi Tea",
+      "image": "/food-images/samanthi-tea.webp",
+      "rect": {
+        "left": 161,
+        "top": 599,
+        "width": 141,
+        "height": 92
+      }
+    },
+    {
+      "id": "osb_cat_herbal_drink_6",
+      "name": "ABC Malt",
+      "image": "/food-images/abc-malt.webp",
+      "rect": {
+        "left": 314,
+        "top": 599,
+        "width": 142,
+        "height": 92
+      }
+    },
+    {
+      "id": "osb_cat_herbal_drink_7",
+      "name": "Paruthi Paal",
+      "image": "/food-images/paruthi-paal.webp",
+      "rect": {
+        "left": 468,
+        "top": 599,
+        "width": 141,
+        "height": 92
+      }
+    },
+    {
+      "id": "osb_cat_mocktail_1",
+      "name": "Blue Curacao",
+      "image": "/food-images/blue-curacao.webp",
+      "rect": {
+        "left": 620,
+        "top": 599,
+        "width": 142,
+        "height": 92
+      }
+    },
+    {
+      "id": "osb_cat_mocktail_2",
+      "name": "Mint & Lime",
+      "image": "/food-images/mint-and-lime.webp",
+      "rect": {
+        "left": 773,
+        "top": 599,
+        "width": 142,
+        "height": 92
+      }
+    },
+    {
+      "id": "osb_cat_mocktail_3",
+      "name": "Pina Colada",
+      "image": "/food-images/pina-colada.webp",
+      "rect": {
+        "left": 927,
+        "top": 599,
+        "width": 141,
+        "height": 92
+      }
+    },
+    {
+      "id": "osb_cat_mocktail_4",
+      "name": "Virgin Mojito",
+      "image": "/food-images/virgin-mojito.webp",
+      "rect": {
+        "left": 1080,
+        "top": 599,
+        "width": 141,
+        "height": 92
+      }
+    },
+    {
+      "id": "osb_cat_cold_beverages_1",
+      "name": "Butter Milk",
+      "image": "/food-images/butter-milk.webp",
+      "rect": {
+        "left": 1233,
+        "top": 599,
+        "width": 142,
+        "height": 92
+      }
+    },
+    {
+      "id": "osb_cat_cold_beverages_2",
+      "name": "Lemon Soda",
+      "image": "/food-images/lemon-soda.webp",
+      "rect": {
+        "left": 1387,
+        "top": 599,
+        "width": 141,
+        "height": 92
+      }
+    },
+    {
+      "id": "osb_cat_cold_beverages_3",
+      "name": "Nannari Sarbath",
+      "image": "/food-images/nannari-sarbath.webp",
+      "rect": {
+        "left": 9,
+        "top": 714,
+        "width": 140,
+        "height": 78
+      }
+    },
+    {
+      "id": "osb_cat_cold_beverages_4",
+      "name": "Lassi",
+      "image": "/food-images/lassi.webp",
+      "rect": {
+        "left": 161,
+        "top": 714,
+        "width": 141,
+        "height": 78
+      }
+    },
+    {
+      "id": "osb_cat_cold_beverages_5",
+      "name": "Naval Pala Sarbath",
+      "image": "/food-images/naval-pala-sarbath.webp",
+      "rect": {
+        "left": 314,
+        "top": 714,
+        "width": 142,
+        "height": 78
+      }
+    },
+    {
+      "id": "osb_cat_cold_beverages_6",
+      "name": "Mint Lemonade",
+      "image": "/food-images/mint-lemonade.webp",
+      "rect": {
+        "left": 468,
+        "top": 714,
+        "width": 141,
+        "height": 78
+      }
+    },
+    {
+      "id": "osb_cat_healthy_snacks_1",
+      "name": "Sprouted Green Grams",
+      "image": "/food-images/sprouted-green-grams.webp",
+      "rect": {
+        "left": 620,
+        "top": 714,
+        "width": 142,
+        "height": 78
+      }
+    },
+    {
+      "id": "osb_cat_healthy_snacks_2",
+      "name": "Sundal",
+      "image": "/food-images/sundal.webp",
+      "rect": {
+        "left": 773,
+        "top": 714,
+        "width": 142,
+        "height": 78
+      }
+    },
+    {
+      "id": "osb_cat_healthy_snacks_3",
+      "name": "Verkadalai",
+      "image": "/food-images/verkadalai.webp",
+      "rect": {
+        "left": 927,
+        "top": 714,
+        "width": 141,
+        "height": 78
+      }
+    },
+    {
+      "id": "osb_cat_healthy_snacks_4",
+      "name": "Corn",
+      "image": "/food-images/corn.webp",
+      "rect": {
+        "left": 1080,
+        "top": 714,
+        "width": 141,
+        "height": 78
+      }
+    },
+    {
+      "id": "osb_cat_healthy_snacks_5",
+      "name": "Sweet Potato",
+      "image": "/food-images/sweet-potato.webp",
+      "rect": {
+        "left": 1233,
+        "top": 714,
+        "width": 142,
+        "height": 78
+      }
+    },
+    {
+      "id": "osb_cat_healthy_snacks_6",
+      "name": "Karupatti Paniyaram",
+      "image": "/food-images/karupatti-paniyaram.webp",
+      "rect": {
+        "left": 1387,
+        "top": 714,
+        "width": 141,
+        "height": 78
+      }
+    },
+    {
+      "id": "osb_cat_healthy_snacks_7",
+      "name": "Kara Paniyaram",
+      "image": "/food-images/kara-paniyaram.webp",
+      "rect": {
+        "left": 9,
+        "top": 815,
+        "width": 135,
+        "height": 72
+      }
+    },
+    {
+      "id": "osb_cat_juice_1",
+      "name": "Lemon",
+      "image": "/food-images/lemon-juice.webp",
+      "rect": {
+        "left": 154,
+        "top": 815,
+        "width": 92,
+        "height": 72
+      }
+    },
+    {
+      "id": "osb_cat_juice_2",
+      "name": "Amla",
+      "image": "/food-images/amla-juice.webp",
+      "rect": {
+        "left": 257,
+        "top": 815,
+        "width": 95,
+        "height": 72
+      }
+    },
+    {
+      "id": "osb_cat_juice_3",
+      "name": "Carrot",
+      "image": "/food-images/carrot-juice.webp",
+      "rect": {
+        "left": 363,
+        "top": 815,
+        "width": 90,
+        "height": 72
+      }
+    },
+    {
+      "id": "osb_cat_juice_4",
+      "name": "Papaya",
+      "image": "/food-images/papaya-juice.webp",
+      "rect": {
+        "left": 562,
+        "top": 815,
+        "width": 96,
+        "height": 72
+      }
+    },
+    {
+      "id": "osb_cat_juice_5",
+      "name": "Chikku",
+      "image": "/food-images/chikku-juice.webp",
+      "rect": {
+        "left": 669,
+        "top": 815,
+        "width": 98,
+        "height": 72
+      }
+    },
+    {
+      "id": "osb_cat_juice_6",
+      "name": "Musk Melon",
+      "image": "/food-images/musk-melon-juice.webp",
+      "rect": {
+        "left": 779,
+        "top": 815,
+        "width": 110,
+        "height": 72
+      }
+    },
+    {
+      "id": "osb_cat_juice_7",
+      "name": "Red Banana Dates",
+      "image": "/food-images/red-banana-dates-juice.webp",
+      "rect": {
+        "left": 900,
+        "top": 815,
+        "width": 116,
+        "height": 72
+      }
+    },
+    {
+      "id": "osb_cat_juice_8",
+      "name": "Fig",
+      "image": "/food-images/fig-juice.webp",
+      "rect": {
+        "left": 1027,
+        "top": 815,
+        "width": 111,
+        "height": 72
+      }
+    },
+    {
+      "id": "osb_cat_juice_9",
+      "name": "Watermelon",
+      "image": "/food-images/watermelon-juice.webp",
+      "rect": {
+        "left": 1149,
+        "top": 815,
+        "width": 116,
+        "height": 72
+      }
+    },
+    {
+      "id": "osb_cat_juice_10",
+      "name": "Pomegranate",
+      "image": "/food-images/pomegranate-juice.webp",
+      "rect": {
+        "left": 1276,
+        "top": 815,
+        "width": 119,
+        "height": 72
+      }
+    },
+    {
+      "id": "osb_cat_juice_11",
+      "name": "Pineapple",
+      "image": "/food-images/pineapple-juice.webp",
+      "rect": {
+        "left": 1409,
+        "top": 815,
+        "width": 119,
+        "height": 72
+      }
+    },
+    {
+      "id": "osb_cat_juice_13",
+      "name": "Apple",
+      "image": "/food-images/apple-juice.webp",
+      "rect": {
+        "left": 265,
+        "top": 911,
+        "width": 86,
+        "height": 76
+      }
+    },
+    {
+      "id": "osb_cat_maggie_1",
+      "name": "Veg Maggie",
+      "image": "/food-images/veg-maggie.webp",
+      "rect": {
+        "left": 360,
+        "top": 911,
+        "width": 100,
+        "height": 76
+      }
+    },
+    {
+      "id": "osb_cat_maggie_2",
+      "name": "Cheese Maggie",
+      "image": "/food-images/cheese-maggie.webp",
+      "rect": {
+        "left": 468,
+        "top": 911,
+        "width": 98,
+        "height": 76
+      }
+    },
+    {
+      "id": "osb_cat_maggie_3",
+      "name": "Egg Maggie",
+      "image": "/food-images/egg-maggie.webp",
+      "rect": {
+        "left": 574,
+        "top": 911,
+        "width": 99,
+        "height": 76
+      }
+    },
+    {
+      "id": "osb_cat_maggie_4",
+      "name": "Masala Maggie",
+      "image": "/food-images/masala-maggie.webp",
+      "rect": {
+        "left": 681,
+        "top": 911,
+        "width": 97,
+        "height": 76
+      }
+    },
+    {
+      "id": "osb_cat_ice_cream_1",
+      "name": "Vanilla (1 scoop)",
+      "image": "/food-images/vanilla-ice-cream.webp",
+      "rect": {
+        "left": 898,
+        "top": 911,
+        "width": 90,
+        "height": 76
+      }
+    },
+    {
+      "id": "osb_cat_ice_cream_3",
+      "name": "Strawberry (1 scoop)",
+      "image": "/food-images/strawberry-ice-cream.webp",
+      "rect": {
+        "left": 997,
+        "top": 911,
+        "width": 86,
+        "height": 76
+      }
+    },
+    {
+      "id": "osb_cat_ice_cream_5",
+      "name": "Chocolate (1 scoop)",
+      "image": "/food-images/chocolate-ice-cream.webp",
+      "rect": {
+        "left": 1091,
+        "top": 911,
+        "width": 83,
+        "height": 76
+      }
+    },
+    {
+      "id": "osb_cat_snacks_1",
+      "name": "Samosa",
+      "image": "/food-images/samosa.webp",
+      "rect": {
+        "left": 1182,
+        "top": 911,
+        "width": 81,
+        "height": 76
+      }
+    },
+    {
+      "id": "osb_cat_snacks_2",
+      "name": "Bread Sandwich",
+      "image": "/food-images/bread-sandwich.webp",
+      "rect": {
+        "left": 1271,
+        "top": 911,
+        "width": 79,
+        "height": 76
+      }
+    },
+    {
+      "id": "osb_cat_snacks_3",
+      "name": "Bread Omlette",
+      "image": "/food-images/bread-omlette.webp",
+      "rect": {
+        "left": 1442,
+        "top": 911,
+        "width": 86,
+        "height": 76
+      }
+    }
+  ],
+  "retained": [
+    {
+      "id": "osb_cat_breakfast_13",
+      "name": "Jumbo Breakfast",
+      "image": "/food-images/jumbo-breakfast.webp",
+      "reason": "No distinct clearly labeled picture in uploaded sheet; previous site image retained."
+    },
+    {
+      "id": "osb_cat_juice_12",
+      "name": "Mosambi",
+      "image": "/food-images/mosambi-juice.webp",
+      "reason": "No distinct clearly labeled picture in uploaded sheet; previous site image retained."
+    },
+    {
+      "id": "osb_cat_ice_cream_2",
+      "name": "Vanilla (2 scoops)",
+      "image": "/food-images/vanilla-2-scoop.webp",
+      "reason": "No distinct clearly labeled picture in uploaded sheet; previous site image retained."
+    },
+    {
+      "id": "osb_cat_ice_cream_4",
+      "name": "Strawberry (2 scoops)",
+      "image": "/food-images/strawberry-2-scoop.webp",
+      "reason": "No distinct clearly labeled picture in uploaded sheet; previous site image retained."
+    },
+    {
+      "id": "osb_cat_ice_cream_6",
+      "name": "Chocolate (2 scoops)",
+      "image": "/food-images/chocolate-2-scoop.webp",
+      "reason": "No distinct clearly labeled picture in uploaded sheet; previous site image retained."
+    }
+  ],
+  "skipped": [
+    "Row 8, column 5: unclear label resembling Canova Juice; no matching existing product.",
+    "Row 9, columns 1-3: duplicate Pomegranate/Pineapple juice labels.",
+    "Row 9, column 9: second Masala Maggie label with a different-looking dish.",
+    "Row 9, column 15: unclear Bread Samllette label; use clearly labeled Bread Omlette in column 16 instead."
+  ],
+  "note": "Crops preserve source pixels; no enlargement or artificial HD detail. Native crops are small (about 76-142 pixels wide)."
+}

@@ -1,0 +1,93 @@
+{
+  "batch": 13,
+  "source": "C:/Users/manib/Downloads/2ef0884c-8b35-4389-9508-254234ac220c.png",
+  "matchedProducts": 7,
+  "matchedSourcePictures": 5,
+  "unmatchedSourcePictures": 0,
+  "items": [
+    {
+      "sourceLabel": "Strawberry Ice Cream",
+      "rect": {
+        "left": 0,
+        "top": 5,
+        "width": 765,
+        "height": 445
+      },
+      "matches": [
+        {
+          "id": "osb_cat_ice_cream_3",
+          "image": "/food-images/strawberry-ice-cream.webp"
+        },
+        {
+          "id": "osb_cat_ice_cream_4",
+          "image": "/food-images/strawberry-2-scoop.webp"
+        }
+      ]
+    },
+    {
+      "sourceLabel": "Chocolate Ice Cream",
+      "rect": {
+        "left": 771,
+        "top": 5,
+        "width": 765,
+        "height": 445
+      },
+      "matches": [
+        {
+          "id": "osb_cat_ice_cream_5",
+          "image": "/food-images/chocolate-ice-cream.webp"
+        },
+        {
+          "id": "osb_cat_ice_cream_6",
+          "image": "/food-images/chocolate-2-scoop.webp"
+        }
+      ]
+    },
+    {
+      "sourceLabel": "Samosa",
+      "rect": {
+        "left": 0,
+        "top": 530,
+        "width": 512,
+        "height": 385
+      },
+      "matches": [
+        {
+          "id": "osb_cat_snacks_1",
+          "image": "/food-images/samosa.webp"
+        }
+      ]
+    },
+    {
+      "sourceLabel": "Bread Sandwich",
+      "rect": {
+        "left": 519,
+        "top": 530,
+        "width": 500,
+        "height": 385
+      },
+      "matches": [
+        {
+          "id": "osb_cat_snacks_2",
+          "image": "/food-images/bread-sandwich.webp"
+        }
+      ]
+    },
+    {
+      "sourceLabel": "Bread Omelette",
+      "rect": {
+        "left": 1025,
+        "top": 530,
+        "width": 511,
+        "height": 385
+      },
+      "matches": [
+        {
+          "id": "osb_cat_snacks_3",
+          "image": "/food-images/bread-omlette.webp"
+        }
+      ]
+    }
+  ],
+  "verification": "All 7 replacements preserve native crop pixels. Other 91 product images and all application source unchanged. Captions removed. Ice cream flavour images shared between both scoop sizes."
+}

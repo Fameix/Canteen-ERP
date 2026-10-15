@@ -1,0 +1,590 @@
+[
+  {
+    "name": "Idly",
+    "slug": "idly",
+    "image": "/food-images/idly.webp",
+    "category_group": 0
+  },
+  {
+    "name": "Podi Idly",
+    "slug": "podi-idly",
+    "image": "/food-images/podi-idly.webp",
+    "category_group": 0
+  },
+  {
+    "name": "Chapathi",
+    "slug": "chapathi",
+    "image": "/food-images/chapathi.webp",
+    "category_group": 0
+  },
+  {
+    "name": "Parotta",
+    "slug": "parotta",
+    "image": "/food-images/parotta.webp",
+    "category_group": 0
+  },
+  {
+    "name": "Pongal",
+    "slug": "pongal",
+    "image": "/food-images/pongal.webp",
+    "category_group": 0
+  },
+  {
+    "name": "Ragi Puttu",
+    "slug": "ragi-puttu",
+    "image": "/food-images/ragi-puttu.webp",
+    "category_group": 0
+  },
+  {
+    "name": "Aval Upuma",
+    "slug": "aval-upuma",
+    "image": "/food-images/aval-upuma.webp",
+    "category_group": 0
+  },
+  {
+    "name": "Ragi Upuma",
+    "slug": "ragi-upuma",
+    "image": "/food-images/ragi-upuma.webp",
+    "category_group": 0
+  },
+  {
+    "name": "Rava Upuma",
+    "slug": "rava-upuma",
+    "image": "/food-images/rava-upuma.webp",
+    "category_group": 0
+  },
+  {
+    "name": "Idiyappam Thengai Paal",
+    "slug": "idiyappam-thengai-paal",
+    "image": "/food-images/idiyappam-thengai-paal.webp",
+    "category_group": 0
+  },
+  {
+    "name": "Vadai",
+    "slug": "vadai",
+    "image": "/food-images/vadai.webp",
+    "category_group": 1
+  },
+  {
+    "name": "Sambar Vadai",
+    "slug": "sambar-vadai",
+    "image": "/food-images/sambar-vadai.webp",
+    "category_group": 1
+  },
+  {
+    "name": "Kal Dosa",
+    "slug": "kal-dosa",
+    "image": "/food-images/kal-dosa.webp",
+    "category_group": 1
+  },
+  {
+    "name": "Podi Dosa",
+    "slug": "podi-dosa",
+    "image": "/food-images/podi-dosa.webp",
+    "category_group": 1
+  },
+  {
+    "name": "Onion Dosa",
+    "slug": "onion-dosa",
+    "image": "/food-images/onion-dosa.webp",
+    "category_group": 1
+  },
+  {
+    "name": "Ghee Dosa",
+    "slug": "ghee-dosa",
+    "image": "/food-images/ghee-dosa.webp",
+    "category_group": 1
+  },
+  {
+    "name": "Egg Dosa",
+    "slug": "egg-dosa",
+    "image": "/food-images/egg-dosa.webp",
+    "category_group": 1
+  },
+  {
+    "name": "Healthy Salad Plate",
+    "slug": "healthy-salad-plate",
+    "image": "/food-images/healthy-salad-plate.webp",
+    "category_group": 1
+  },
+  {
+    "name": "Veg Meals",
+    "slug": "veg-meals",
+    "image": "/food-images/veg-meals.webp",
+    "category_group": 1
+  },
+  {
+    "name": "Non Veg Meals",
+    "slug": "non-veg-meals",
+    "image": "/food-images/non-veg-meals.webp",
+    "category_group": 1
+  },
+  {
+    "name": "Chicken Biryani",
+    "slug": "chicken-biryani",
+    "image": "/food-images/chicken-biryani.webp",
+    "category_group": 2
+  },
+  {
+    "name": "Chicken 65 Biryani",
+    "slug": "chicken-65-biryani",
+    "image": "/food-images/chicken-65-biryani.webp",
+    "category_group": 2
+  },
+  {
+    "name": "Veg Biryani",
+    "slug": "veg-biryani",
+    "image": "/food-images/veg-biryani.webp",
+    "category_group": 2
+  },
+  {
+    "name": "Veg Pulao",
+    "slug": "veg-pulao",
+    "image": "/food-images/veg-pulao.webp",
+    "category_group": 2
+  },
+  {
+    "name": "Variety Rice",
+    "slug": "variety-rice",
+    "image": "/food-images/variety-rice.webp",
+    "category_group": 2
+  },
+  {
+    "name": "Boiled Egg",
+    "slug": "boiled-egg",
+    "image": "/food-images/boiled-egg.webp",
+    "category_group": 2
+  },
+  {
+    "name": "Muttai Thokku",
+    "slug": "muttai-thokku",
+    "image": "/food-images/muttai-thokku.webp",
+    "category_group": 2
+  },
+  {
+    "name": "Omlette",
+    "slug": "omlette",
+    "image": "/food-images/omlette.webp",
+    "category_group": 2
+  },
+  {
+    "name": "Murungakeerai Omlette",
+    "slug": "murungakeerai-omlette",
+    "image": "/food-images/murungakeerai-omlette.webp",
+    "category_group": 2
+  },
+  {
+    "name": "Green Chicken",
+    "slug": "green-chicken",
+    "image": "/food-images/green-chicken.webp",
+    "category_group": 2
+  },
+  {
+    "name": "Chettinadu Chicken",
+    "slug": "chettinadu-chicken",
+    "image": "/food-images/chettinadu-chicken.webp",
+    "category_group": 3
+  },
+  {
+    "name": "Pepper Chicken",
+    "slug": "pepper-chicken",
+    "image": "/food-images/pepper-chicken.webp",
+    "category_group": 3
+  },
+  {
+    "name": "Chicken 65",
+    "slug": "chicken-65",
+    "image": "/food-images/chicken-65.webp",
+    "category_group": 3
+  },
+  {
+    "name": "Mooligai Soup",
+    "slug": "mooligai-soup",
+    "image": "/food-images/mooligai-soup.webp",
+    "category_group": 3
+  },
+  {
+    "name": "Mudavattu Kilangu Soup",
+    "slug": "mudavattu-kilangu-soup",
+    "image": "/food-images/mudavattu-kilangu-soup.webp",
+    "category_group": 3
+  },
+  {
+    "name": "Veg Mushroom Soup",
+    "slug": "veg-mushroom-soup",
+    "image": "/food-images/veg-mushroom-soup.webp",
+    "category_group": 3
+  },
+  {
+    "name": "Murungakeerai Soup",
+    "slug": "murungakeerai-soup",
+    "image": "/food-images/murungakeerai-soup.webp",
+    "category_group": 3
+  },
+  {
+    "name": "Milk",
+    "slug": "milk",
+    "image": "/food-images/milk.webp",
+    "category_group": 3
+  },
+  {
+    "name": "Coffee",
+    "slug": "coffee",
+    "image": "/food-images/coffee.webp",
+    "category_group": 3
+  },
+  {
+    "name": "Tea",
+    "slug": "tea",
+    "image": "/food-images/tea.webp",
+    "category_group": 3
+  },
+  {
+    "name": "Black Coffee",
+    "slug": "black-coffee",
+    "image": "/food-images/black-coffee.webp",
+    "category_group": 4
+  },
+  {
+    "name": "Black Tea",
+    "slug": "black-tea",
+    "image": "/food-images/black-tea.webp",
+    "category_group": 4
+  },
+  {
+    "name": "Lemon Tea",
+    "slug": "lemon-tea",
+    "image": "/food-images/lemon-tea.webp",
+    "category_group": 4
+  },
+  {
+    "name": "Honey Lemon Tea",
+    "slug": "honey-lemon-tea",
+    "image": "/food-images/honey-lemon-tea.webp",
+    "category_group": 4
+  },
+  {
+    "name": "Boost",
+    "slug": "boost",
+    "image": "/food-images/boost.webp",
+    "category_group": 4
+  },
+  {
+    "name": "Horlicks",
+    "slug": "horlicks",
+    "image": "/food-images/horlicks.webp",
+    "category_group": 4
+  },
+  {
+    "name": "Badam Milk",
+    "slug": "badam-milk",
+    "image": "/food-images/badam-milk.webp",
+    "category_group": 4
+  },
+  {
+    "name": "Sukku Malli Coffee",
+    "slug": "sukku-malli-coffee",
+    "image": "/food-images/sukku-malli-coffee.webp",
+    "category_group": 4
+  },
+  {
+    "name": "Sangu Poo Tea",
+    "slug": "sangu-poo-tea",
+    "image": "/food-images/sangu-poo-tea.webp",
+    "category_group": 4
+  },
+  {
+    "name": "Avaram Poo Tea",
+    "slug": "avaram-poo-tea",
+    "image": "/food-images/avaram-poo-tea.webp",
+    "category_group": 4
+  },
+  {
+    "name": "Hibiscus Tea",
+    "slug": "hibiscus-tea",
+    "image": "/food-images/hibiscus-tea.webp",
+    "category_group": 5
+  },
+  {
+    "name": "Samanthi Tea",
+    "slug": "samanthi-tea",
+    "image": "/food-images/samanthi-tea.webp",
+    "category_group": 5
+  },
+  {
+    "name": "Abc Malt",
+    "slug": "abc-malt",
+    "image": "/food-images/abc-malt.webp",
+    "category_group": 5
+  },
+  {
+    "name": "Paruthi Paal",
+    "slug": "paruthi-paal",
+    "image": "/food-images/paruthi-paal.webp",
+    "category_group": 5
+  },
+  {
+    "name": "Blue Curacao",
+    "slug": "blue-curacao",
+    "image": "/food-images/blue-curacao.webp",
+    "category_group": 5
+  },
+  {
+    "name": "Mint And Lime",
+    "slug": "mint-and-lime",
+    "image": "/food-images/mint-and-lime.webp",
+    "category_group": 5
+  },
+  {
+    "name": "Pina Colada",
+    "slug": "pina-colada",
+    "image": "/food-images/pina-colada.webp",
+    "category_group": 5
+  },
+  {
+    "name": "Virgin Mojito",
+    "slug": "virgin-mojito",
+    "image": "/food-images/virgin-mojito.webp",
+    "category_group": 5
+  },
+  {
+    "name": "Butter Milk",
+    "slug": "butter-milk",
+    "image": "/food-images/butter-milk.webp",
+    "category_group": 5
+  },
+  {
+    "name": "Lemon Soda",
+    "slug": "lemon-soda",
+    "image": "/food-images/lemon-soda.webp",
+    "category_group": 5
+  },
+  {
+    "name": "Nannari Sarbath",
+    "slug": "nannari-sarbath",
+    "image": "/food-images/nannari-sarbath.webp",
+    "category_group": 6
+  },
+  {
+    "name": "Lassi",
+    "slug": "lassi",
+    "image": "/food-images/lassi.webp",
+    "category_group": 6
+  },
+  {
+    "name": "Naval Pala Sarbath",
+    "slug": "naval-pala-sarbath",
+    "image": "/food-images/naval-pala-sarbath.webp",
+    "category_group": 6
+  },
+  {
+    "name": "Mint Lemonade",
+    "slug": "mint-lemonade",
+    "image": "/food-images/mint-lemonade.webp",
+    "category_group": 6
+  },
+  {
+    "name": "Sprouted Green Grams",
+    "slug": "sprouted-green-grams",
+    "image": "/food-images/sprouted-green-grams.webp",
+    "category_group": 6
+  },
+  {
+    "name": "Sundal",
+    "slug": "sundal",
+    "image": "/food-images/sundal.webp",
+    "category_group": 6
+  },
+  {
+    "name": "Verkadalai",
+    "slug": "verkadalai",
+    "image": "/food-images/verkadalai.webp",
+    "category_group": 6
+  },
+  {
+    "name": "Corn",
+    "slug": "corn",
+    "image": "/food-images/corn.webp",
+    "category_group": 6
+  },
+  {
+    "name": "Sweet Potato",
+    "slug": "sweet-potato",
+    "image": "/food-images/sweet-potato.webp",
+    "category_group": 6
+  },
+  {
+    "name": "Karupatti Paniyaram",
+    "slug": "karupatti-paniyaram",
+    "image": "/food-images/karupatti-paniyaram.webp",
+    "category_group": 6
+  },
+  {
+    "name": "Kara Paniyaram",
+    "slug": "kara-paniyaram",
+    "image": "/food-images/kara-paniyaram.webp",
+    "category_group": 7
+  },
+  {
+    "name": "Lemon Juice",
+    "slug": "lemon-juice",
+    "image": "/food-images/lemon-juice.webp",
+    "category_group": 7
+  },
+  {
+    "name": "Amla Juice",
+    "slug": "amla-juice",
+    "image": "/food-images/amla-juice.webp",
+    "category_group": 7
+  },
+  {
+    "name": "Carrot Juice",
+    "slug": "carrot-juice",
+    "image": "/food-images/carrot-juice.webp",
+    "category_group": 7
+  },
+  {
+    "name": "Papaya Juice",
+    "slug": "papaya-juice",
+    "image": "/food-images/papaya-juice.webp",
+    "category_group": 7
+  },
+  {
+    "name": "Chikku Juice",
+    "slug": "chikku-juice",
+    "image": "/food-images/chikku-juice.webp",
+    "category_group": 7
+  },
+  {
+    "name": "Musk Melon Juice",
+    "slug": "musk-melon-juice",
+    "image": "/food-images/musk-melon-juice.webp",
+    "category_group": 7
+  },
+  {
+    "name": "Red Banana Dates Juice",
+    "slug": "red-banana-dates-juice",
+    "image": "/food-images/red-banana-dates-juice.webp",
+    "category_group": 7
+  },
+  {
+    "name": "Fig Juice",
+    "slug": "fig-juice",
+    "image": "/food-images/fig-juice.webp",
+    "category_group": 7
+  },
+  {
+    "name": "Watermelon Juice",
+    "slug": "watermelon-juice",
+    "image": "/food-images/watermelon-juice.webp",
+    "category_group": 7
+  },
+  {
+    "name": "Pomegranate Juice",
+    "slug": "pomegranate-juice",
+    "image": "/food-images/pomegranate-juice.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Pineapple Juice",
+    "slug": "pineapple-juice",
+    "image": "/food-images/pineapple-juice.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Mosambi Juice",
+    "slug": "mosambi-juice",
+    "image": "/food-images/mosambi-juice.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Apple Juice",
+    "slug": "apple-juice",
+    "image": "/food-images/apple-juice.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Veg Maggie",
+    "slug": "veg-maggie",
+    "image": "/food-images/veg-maggie.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Cheese Maggie",
+    "slug": "cheese-maggie",
+    "image": "/food-images/cheese-maggie.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Egg Maggie",
+    "slug": "egg-maggie",
+    "image": "/food-images/egg-maggie.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Masala Maggie",
+    "slug": "masala-maggie",
+    "image": "/food-images/masala-maggie.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Vanilla Ice Cream",
+    "slug": "vanilla-ice-cream",
+    "image": "/food-images/vanilla-ice-cream.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Strawberry Ice Cream",
+    "slug": "strawberry-ice-cream",
+    "image": "/food-images/strawberry-ice-cream.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Chocolate Ice Cream",
+    "slug": "chocolate-ice-cream",
+    "image": "/food-images/chocolate-ice-cream.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Samosa",
+    "slug": "samosa",
+    "image": "/food-images/samosa.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Bread Sandwich",
+    "slug": "bread-sandwich",
+    "image": "/food-images/bread-sandwich.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Bread Omlette",
+    "slug": "bread-omlette",
+    "image": "/food-images/bread-omlette.webp",
+    "category_group": 8
+  },
+  {
+    "name": "Jumbo Breakfast",
+    "slug": "jumbo-breakfast",
+    "image": "/food-images/jumbo-breakfast.webp",
+    "note": "Uses illustrative substitute; review against exact serving"
+  },
+  {
+    "name": "Vanilla 2 Scoop",
+    "slug": "vanilla-2-scoop",
+    "image": "/food-images/vanilla-2-scoop.webp",
+    "note": "Uses illustrative substitute; review against exact serving"
+  },
+  {
+    "name": "Strawberry 2 Scoop",
+    "slug": "strawberry-2-scoop",
+    "image": "/food-images/strawberry-2-scoop.webp",
+    "note": "Uses illustrative substitute; review against exact serving"
+  },
+  {
+    "name": "Chocolate 2 Scoop",
+    "slug": "chocolate-2-scoop",
+    "image": "/food-images/chocolate-2-scoop.webp",
+    "note": "Uses illustrative substitute; review against exact serving"
+  }
+]

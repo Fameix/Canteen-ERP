@@ -1,0 +1,121 @@
+{
+  "batch": 1,
+  "source": "C:/Users/manib/Downloads/image(20261015-094848).png",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "matched": [
+    {
+      "id": "osb_cat_breakfast_1",
+      "name": "Idly (2pcs)",
+      "image": "/food-images/idly.webp",
+      "rect": {
+        "left": 0,
+        "top": 100,
+        "width": 306,
+        "height": 345
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_2",
+      "name": "Podi Idly (2pcs)",
+      "image": "/food-images/podi-idly.webp",
+      "rect": {
+        "left": 310,
+        "top": 100,
+        "width": 303,
+        "height": 345
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_3",
+      "name": "Chapathi",
+      "image": "/food-images/chapathi.webp",
+      "rect": {
+        "left": 618,
+        "top": 100,
+        "width": 302,
+        "height": 345
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_4",
+      "name": "Parotta",
+      "image": "/food-images/parotta.webp",
+      "rect": {
+        "left": 924,
+        "top": 100,
+        "width": 304,
+        "height": 345
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_5",
+      "name": "Pongal",
+      "image": "/food-images/pongal.webp",
+      "rect": {
+        "left": 1232,
+        "top": 100,
+        "width": 304,
+        "height": 345
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_6",
+      "name": "Ragi Puttu",
+      "image": "/food-images/ragi-puttu.webp",
+      "rect": {
+        "left": 0,
+        "top": 565,
+        "width": 306,
+        "height": 355
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_7",
+      "name": "Aval Upuma",
+      "image": "/food-images/aval-upuma.webp",
+      "rect": {
+        "left": 310,
+        "top": 565,
+        "width": 303,
+        "height": 355
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_8",
+      "name": "Ragi Upuma",
+      "image": "/food-images/ragi-upuma.webp",
+      "rect": {
+        "left": 618,
+        "top": 565,
+        "width": 302,
+        "height": 355
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_9",
+      "name": "Rava Upuma",
+      "image": "/food-images/rava-upuma.webp",
+      "rect": {
+        "left": 924,
+        "top": 565,
+        "width": 304,
+        "height": 355
+      }
+    },
+    {
+      "id": "osb_cat_breakfast_10",
+      "name": "Idiyappam Thengai Paal",
+      "image": "/food-images/idiyappam-thengai-paal.webp",
+      "rect": {
+        "left": 1232,
+        "top": 565,
+        "width": 304,
+        "height": 355
+      }
+    }
+  ],
+  "note": "Native crops without enlargement, captions excluded. Only first 10 breakfast product image files replaced."
+}

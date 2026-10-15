@@ -1,0 +1,121 @@
+{
+  "batch": 4,
+  "source": "C:/Users/manib/Downloads/d6c6fe07-ae5e-4ac8-83e8-0bb393532dd9.png",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "matched": [
+    {
+      "id": "osb_cat_lunch_2",
+      "name": "Non Veg Meals",
+      "image": "/food-images/non-veg-meals.webp",
+      "rect": {
+        "left": 0,
+        "top": 75,
+        "width": 305,
+        "height": 370
+      }
+    },
+    {
+      "id": "osb_cat_lunch_3",
+      "name": "Chicken Biryani",
+      "image": "/food-images/chicken-biryani.webp",
+      "rect": {
+        "left": 310,
+        "top": 75,
+        "width": 301,
+        "height": 370
+      }
+    },
+    {
+      "id": "osb_cat_lunch_4",
+      "name": "Chicken 65 Biryani",
+      "image": "/food-images/chicken-65-biryani.webp",
+      "rect": {
+        "left": 616,
+        "top": 75,
+        "width": 305,
+        "height": 370
+      }
+    },
+    {
+      "id": "osb_cat_lunch_5",
+      "name": "Veg Biryani",
+      "image": "/food-images/veg-biryani.webp",
+      "rect": {
+        "left": 926,
+        "top": 75,
+        "width": 302,
+        "height": 370
+      }
+    },
+    {
+      "id": "osb_cat_lunch_6",
+      "name": "Veg Pulao",
+      "image": "/food-images/veg-pulao.webp",
+      "rect": {
+        "left": 1233,
+        "top": 75,
+        "width": 303,
+        "height": 370
+      }
+    },
+    {
+      "id": "osb_cat_lunch_7",
+      "name": "Variety Rice",
+      "image": "/food-images/variety-rice.webp",
+      "rect": {
+        "left": 0,
+        "top": 540,
+        "width": 305,
+        "height": 380
+      }
+    },
+    {
+      "id": "osb_cat_egg_1",
+      "name": "Boiled Egg",
+      "image": "/food-images/boiled-egg.webp",
+      "rect": {
+        "left": 310,
+        "top": 540,
+        "width": 301,
+        "height": 380
+      }
+    },
+    {
+      "id": "osb_cat_egg_2",
+      "name": "Mutta Thokku",
+      "image": "/food-images/muttai-thokku.webp",
+      "rect": {
+        "left": 616,
+        "top": 540,
+        "width": 305,
+        "height": 380
+      }
+    },
+    {
+      "id": "osb_cat_egg_3",
+      "name": "Omlette",
+      "image": "/food-images/omlette.webp",
+      "rect": {
+        "left": 926,
+        "top": 540,
+        "width": 302,
+        "height": 380
+      }
+    },
+    {
+      "id": "osb_cat_egg_4",
+      "name": "Murungakeerai Omlette",
+      "image": "/food-images/murungakeerai-omlette.webp",
+      "rect": {
+        "left": 1233,
+        "top": 540,
+        "width": 303,
+        "height": 380
+      }
+    }
+  ],
+  "verification": "Exactly 10 asset files replaced. Other 88 images, including all of batch 1, and all application code unchanged. Native crops without enlargement; captions excluded."
+}

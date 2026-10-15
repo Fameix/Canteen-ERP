@@ -1,0 +1,308 @@
+{
+  "batch": 11,
+  "matched": 12,
+  "unassigned": 8,
+  "items": [
+    {
+      "source": "C:/Users/manib/Downloads/b068184f-d281-4749-9d88-05d42725e9cf.png",
+      "sourceLabel": "French Fries",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 0,
+        "top": 110,
+        "width": 305,
+        "height": 300
+      },
+      "downloadImage": "images/1-french-fries.webp",
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/b068184f-d281-4749-9d88-05d42725e9cf.png",
+      "sourceLabel": "Paneer Tikka",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 310,
+        "top": 110,
+        "width": 301,
+        "height": 300
+      },
+      "downloadImage": "images/1-paneer-tikka.webp",
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/b068184f-d281-4749-9d88-05d42725e9cf.png",
+      "sourceLabel": "Paneer 65",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 616,
+        "top": 110,
+        "width": 305,
+        "height": 300
+      },
+      "downloadImage": "images/1-paneer-65.webp",
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/b068184f-d281-4749-9d88-05d42725e9cf.png",
+      "sourceLabel": "Gobi 65",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 926,
+        "top": 110,
+        "width": 302,
+        "height": 300
+      },
+      "downloadImage": "images/1-gobi-65.webp",
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/b068184f-d281-4749-9d88-05d42725e9cf.png",
+      "sourceLabel": "Mushroom 65",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 1233,
+        "top": 110,
+        "width": 303,
+        "height": 300
+      },
+      "downloadImage": "images/1-mushroom-65.webp",
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/b068184f-d281-4749-9d88-05d42725e9cf.png",
+      "sourceLabel": "Masala Pappad",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 0,
+        "top": 565,
+        "width": 305,
+        "height": 320
+      },
+      "downloadImage": "images/1-masala-pappad.webp",
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/b068184f-d281-4749-9d88-05d42725e9cf.png",
+      "sourceLabel": "Egg Masala",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 310,
+        "top": 565,
+        "width": 301,
+        "height": 320
+      },
+      "downloadImage": "images/1-egg-masala.webp",
+      "status": "Egg Masala is not an exact match to Mutta Thokku; existing image retained"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/b068184f-d281-4749-9d88-05d42725e9cf.png",
+      "sourceLabel": "Kalaki",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 616,
+        "top": 565,
+        "width": 305,
+        "height": 320
+      },
+      "downloadImage": "images/1-kalaki.webp",
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/b068184f-d281-4749-9d88-05d42725e9cf.png",
+      "sourceLabel": "Omelette",
+      "id": "osb_cat_egg_3",
+      "menuName": "Omlette",
+      "image": "/food-images/omlette.webp",
+      "rect": {
+        "left": 926,
+        "top": 565,
+        "width": 302,
+        "height": 320
+      },
+      "downloadImage": "images/1-omelette.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/b068184f-d281-4749-9d88-05d42725e9cf.png",
+      "sourceLabel": "Boil Egg",
+      "id": "osb_cat_egg_1",
+      "menuName": "Boiled Egg",
+      "image": "/food-images/boiled-egg.webp",
+      "rect": {
+        "left": 1233,
+        "top": 565,
+        "width": 303,
+        "height": 320
+      },
+      "downloadImage": "images/1-boil-egg.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/39255b6a-dc0b-418a-b6f6-7242acad3b11.png",
+      "sourceLabel": "Karupatti Paniyaram",
+      "id": "osb_cat_healthy_snacks_6",
+      "menuName": "Karupatti Paniyaram",
+      "image": "/food-images/karupatti-paniyaram.webp",
+      "rect": {
+        "left": 0,
+        "top": 55,
+        "width": 305,
+        "height": 365
+      },
+      "downloadImage": "images/2-karupatti-paniyaram.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/39255b6a-dc0b-418a-b6f6-7242acad3b11.png",
+      "sourceLabel": "Kara Paniyaram",
+      "id": "osb_cat_healthy_snacks_7",
+      "menuName": "Kara Paniyaram",
+      "image": "/food-images/kara-paniyaram.webp",
+      "rect": {
+        "left": 310,
+        "top": 55,
+        "width": 301,
+        "height": 365
+      },
+      "downloadImage": "images/2-kara-paniyaram.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/39255b6a-dc0b-418a-b6f6-7242acad3b11.png",
+      "sourceLabel": "Lemon Juice",
+      "id": "osb_cat_juice_1",
+      "menuName": "Lemon",
+      "image": "/food-images/lemon-juice.webp",
+      "rect": {
+        "left": 616,
+        "top": 55,
+        "width": 305,
+        "height": 365
+      },
+      "downloadImage": "images/2-lemon-juice.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/39255b6a-dc0b-418a-b6f6-7242acad3b11.png",
+      "sourceLabel": "Amla Juice",
+      "id": "osb_cat_juice_2",
+      "menuName": "Amla",
+      "image": "/food-images/amla-juice.webp",
+      "rect": {
+        "left": 926,
+        "top": 55,
+        "width": 302,
+        "height": 365
+      },
+      "downloadImage": "images/2-amla-juice.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/39255b6a-dc0b-418a-b6f6-7242acad3b11.png",
+      "sourceLabel": "Carrot Juice",
+      "id": "osb_cat_juice_3",
+      "menuName": "Carrot",
+      "image": "/food-images/carrot-juice.webp",
+      "rect": {
+        "left": 1233,
+        "top": 55,
+        "width": 303,
+        "height": 365
+      },
+      "downloadImage": "images/2-carrot-juice.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/39255b6a-dc0b-418a-b6f6-7242acad3b11.png",
+      "sourceLabel": "Papaya Juice",
+      "id": "osb_cat_juice_4",
+      "menuName": "Papaya",
+      "image": "/food-images/papaya-juice.webp",
+      "rect": {
+        "left": 0,
+        "top": 530,
+        "width": 305,
+        "height": 360
+      },
+      "downloadImage": "images/2-papaya-juice.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/39255b6a-dc0b-418a-b6f6-7242acad3b11.png",
+      "sourceLabel": "Chikku Juice",
+      "id": "osb_cat_juice_5",
+      "menuName": "Chikku",
+      "image": "/food-images/chikku-juice.webp",
+      "rect": {
+        "left": 310,
+        "top": 530,
+        "width": 301,
+        "height": 360
+      },
+      "downloadImage": "images/2-chikku-juice.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/39255b6a-dc0b-418a-b6f6-7242acad3b11.png",
+      "sourceLabel": "Musk Melon Juice",
+      "id": "osb_cat_juice_6",
+      "menuName": "Musk Melon",
+      "image": "/food-images/musk-melon-juice.webp",
+      "rect": {
+        "left": 616,
+        "top": 530,
+        "width": 305,
+        "height": 360
+      },
+      "downloadImage": "images/2-musk-melon-juice.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/39255b6a-dc0b-418a-b6f6-7242acad3b11.png",
+      "sourceLabel": "Red Banana Dates Juice",
+      "id": "osb_cat_juice_7",
+      "menuName": "Red Banana Dates",
+      "image": "/food-images/red-banana-dates-juice.webp",
+      "rect": {
+        "left": 926,
+        "top": 530,
+        "width": 302,
+        "height": 360
+      },
+      "downloadImage": "images/2-red-banana-dates-juice.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/39255b6a-dc0b-418a-b6f6-7242acad3b11.png",
+      "sourceLabel": "Fig Juice",
+      "id": "osb_cat_juice_8",
+      "menuName": "Fig",
+      "image": "/food-images/fig-juice.webp",
+      "rect": {
+        "left": 1233,
+        "top": 530,
+        "width": 303,
+        "height": 360
+      },
+      "downloadImage": "images/2-fig-juice.webp",
+      "status": "replaced"
+    }
+  ],
+  "verification": "12 matched product images replaced. Other 86 images and all application source code unchanged. Captions removed; native crop pixels preserved."
+}

@@ -1,0 +1,121 @@
+{
+  "batch": 6,
+  "source": "C:/Users/manib/Downloads/6f3ed844-ebc7-49ff-9509-ac7d99c8cf5d.png",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "matched": [
+    {
+      "id": "osb_cat_chicken_1",
+      "name": "Green Chicken",
+      "image": "/food-images/green-chicken.webp",
+      "rect": {
+        "left": 0,
+        "top": 70,
+        "width": 305,
+        "height": 355
+      }
+    },
+    {
+      "id": "osb_cat_chicken_2",
+      "name": "Chettinadu Chicken",
+      "image": "/food-images/chettinadu-chicken.webp",
+      "rect": {
+        "left": 310,
+        "top": 70,
+        "width": 301,
+        "height": 355
+      }
+    },
+    {
+      "id": "osb_cat_chicken_3",
+      "name": "Pepper Chicken",
+      "image": "/food-images/pepper-chicken.webp",
+      "rect": {
+        "left": 616,
+        "top": 70,
+        "width": 305,
+        "height": 355
+      }
+    },
+    {
+      "id": "osb_cat_chicken_4",
+      "name": "Chicken 65",
+      "image": "/food-images/chicken-65.webp",
+      "rect": {
+        "left": 926,
+        "top": 70,
+        "width": 302,
+        "height": 355
+      }
+    },
+    {
+      "id": "osb_cat_soup_1",
+      "name": "Mooligai Soup",
+      "image": "/food-images/mooligai-soup.webp",
+      "rect": {
+        "left": 1233,
+        "top": 70,
+        "width": 303,
+        "height": 355
+      }
+    },
+    {
+      "id": "osb_cat_soup_2",
+      "name": "Mudavattu Kilangu Soup",
+      "image": "/food-images/mudavattu-kilangu-soup.webp",
+      "rect": {
+        "left": 0,
+        "top": 555,
+        "width": 305,
+        "height": 360
+      }
+    },
+    {
+      "id": "osb_cat_soup_3",
+      "name": "Veg Mushroom Soup",
+      "image": "/food-images/veg-mushroom-soup.webp",
+      "rect": {
+        "left": 310,
+        "top": 555,
+        "width": 301,
+        "height": 360
+      }
+    },
+    {
+      "id": "osb_cat_soup_4",
+      "name": "Murungakeerai Soup",
+      "image": "/food-images/murungakeerai-soup.webp",
+      "rect": {
+        "left": 616,
+        "top": 555,
+        "width": 305,
+        "height": 360
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_1",
+      "name": "Milk",
+      "image": "/food-images/milk.webp",
+      "rect": {
+        "left": 926,
+        "top": 555,
+        "width": 302,
+        "height": 360
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_2",
+      "name": "Coffee",
+      "image": "/food-images/coffee.webp",
+      "rect": {
+        "left": 1233,
+        "top": 555,
+        "width": 303,
+        "height": 360
+      }
+    }
+  ],
+  "verification": "Exactly 10 asset files replaced. Other 88 images, including all of batch 1, and all application code unchanged. Native crops without enlargement; captions excluded."
+}

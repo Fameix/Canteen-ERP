@@ -1,0 +1,149 @@
+{
+  "batch": 7,
+  "source": "C:/Users/manib/Downloads/cd5ff8e9-a337-49cd-a350-1897def229e8.png",
+  "matched": 5,
+  "unmatched": 5,
+  "items": [
+    {
+      "sourceLabel": "Tea",
+      "id": "osb_cat_hot_beverages_3",
+      "menuName": "Tea",
+      "image": "/food-images/tea.webp",
+      "downloadImage": "images/tea.webp",
+      "rect": {
+        "left": 0,
+        "top": 50,
+        "width": 305,
+        "height": 380
+      },
+      "status": "replaced"
+    },
+    {
+      "sourceLabel": "Chocolate Milk",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "downloadImage": "images/chocolate-milk.webp",
+      "rect": {
+        "left": 310,
+        "top": 50,
+        "width": 301,
+        "height": 380
+      },
+      "status": "unmatched - no existing menu product"
+    },
+    {
+      "sourceLabel": "Badam Milk",
+      "id": "osb_cat_hot_beverages_10",
+      "menuName": "Badam Milk",
+      "image": "/food-images/badam-milk.webp",
+      "downloadImage": "images/badam-milk.webp",
+      "rect": {
+        "left": 616,
+        "top": 50,
+        "width": 305,
+        "height": 380
+      },
+      "status": "replaced"
+    },
+    {
+      "sourceLabel": "Rose Milk",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "downloadImage": "images/rose-milk.webp",
+      "rect": {
+        "left": 926,
+        "top": 50,
+        "width": 302,
+        "height": 380
+      },
+      "status": "unmatched - no existing menu product"
+    },
+    {
+      "sourceLabel": "Fresh Juice",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "downloadImage": "images/fresh-juice.webp",
+      "rect": {
+        "left": 1233,
+        "top": 50,
+        "width": 303,
+        "height": 380
+      },
+      "status": "unmatched - no existing menu product"
+    },
+    {
+      "sourceLabel": "Sweet Lassi",
+      "id": "osb_cat_cold_beverages_4",
+      "menuName": "Lassi",
+      "image": "/food-images/lassi.webp",
+      "downloadImage": "images/sweet-lassi.webp",
+      "rect": {
+        "left": 0,
+        "top": 545,
+        "width": 305,
+        "height": 375
+      },
+      "status": "replaced"
+    },
+    {
+      "sourceLabel": "Butter Milk",
+      "id": "osb_cat_cold_beverages_1",
+      "menuName": "Butter Milk",
+      "image": "/food-images/butter-milk.webp",
+      "downloadImage": "images/butter-milk.webp",
+      "rect": {
+        "left": 310,
+        "top": 545,
+        "width": 301,
+        "height": 375
+      },
+      "status": "replaced"
+    },
+    {
+      "sourceLabel": "Lemon Soda",
+      "id": "osb_cat_cold_beverages_2",
+      "menuName": "Lemon Soda",
+      "image": "/food-images/lemon-soda.webp",
+      "downloadImage": "images/lemon-soda.webp",
+      "rect": {
+        "left": 616,
+        "top": 545,
+        "width": 305,
+        "height": 375
+      },
+      "status": "replaced"
+    },
+    {
+      "sourceLabel": "Rose Water",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "downloadImage": "images/rose-water.webp",
+      "rect": {
+        "left": 926,
+        "top": 545,
+        "width": 302,
+        "height": 375
+      },
+      "status": "unmatched - no existing menu product"
+    },
+    {
+      "sourceLabel": "Plain Dosa",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "downloadImage": "images/plain-dosa.webp",
+      "rect": {
+        "left": 1233,
+        "top": 545,
+        "width": 303,
+        "height": 375
+      },
+      "status": "unmatched - no existing menu product"
+    }
+  ],
+  "note": "Sweet Lassi matched to existing Lassi. Five labels do not clearly match current products and remain unassigned. No products added or renamed. Prices, IDs, billing code, and other 93 site images unchanged."
+}

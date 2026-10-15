@@ -11,6 +11,9 @@
 # testing
 /coverage
 
+# Local verification artifacts
+/tmp/
+
 # next.js
 /.next/
 /out/

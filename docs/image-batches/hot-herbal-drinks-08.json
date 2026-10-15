@@ -1,0 +1,121 @@
+{
+  "batch": 8,
+  "source": "C:/Users/manib/Downloads/6b82bccf-76f2-49cf-8efa-a425a930331f.png",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "matched": [
+    {
+      "id": "osb_cat_hot_beverages_3",
+      "name": "Tea",
+      "image": "/food-images/tea.webp",
+      "rect": {
+        "left": 0,
+        "top": 90,
+        "width": 305,
+        "height": 340
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_4",
+      "name": "Black Coffee",
+      "image": "/food-images/black-coffee.webp",
+      "rect": {
+        "left": 310,
+        "top": 90,
+        "width": 301,
+        "height": 340
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_5",
+      "name": "Black Tea",
+      "image": "/food-images/black-tea.webp",
+      "rect": {
+        "left": 616,
+        "top": 90,
+        "width": 305,
+        "height": 340
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_6",
+      "name": "Lemon Tea",
+      "image": "/food-images/lemon-tea.webp",
+      "rect": {
+        "left": 926,
+        "top": 90,
+        "width": 302,
+        "height": 340
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_7",
+      "name": "Honey Lemon Tea",
+      "image": "/food-images/honey-lemon-tea.webp",
+      "rect": {
+        "left": 1233,
+        "top": 90,
+        "width": 303,
+        "height": 340
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_8",
+      "name": "Boost",
+      "image": "/food-images/boost.webp",
+      "rect": {
+        "left": 0,
+        "top": 535,
+        "width": 305,
+        "height": 390
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_9",
+      "name": "Horlicks",
+      "image": "/food-images/horlicks.webp",
+      "rect": {
+        "left": 310,
+        "top": 535,
+        "width": 301,
+        "height": 390
+      }
+    },
+    {
+      "id": "osb_cat_hot_beverages_10",
+      "name": "Badam Milk",
+      "image": "/food-images/badam-milk.webp",
+      "rect": {
+        "left": 616,
+        "top": 535,
+        "width": 305,
+        "height": 390
+      }
+    },
+    {
+      "id": "osb_cat_herbal_drink_1",
+      "name": "Sukku Malli Coffee",
+      "image": "/food-images/sukku-malli-coffee.webp",
+      "rect": {
+        "left": 926,
+        "top": 535,
+        "width": 302,
+        "height": 390
+      }
+    },
+    {
+      "id": "osb_cat_herbal_drink_2",
+      "name": "Sangu Poo Tea",
+      "image": "/food-images/sangu-poo-tea.webp",
+      "rect": {
+        "left": 1233,
+        "top": 535,
+        "width": 303,
+        "height": 390
+      }
+    }
+  ],
+  "verification": "Exactly 10 asset files replaced. Other 88 images, including all of batch 1, and all application code unchanged. Native crops without enlargement; captions excluded."
+}

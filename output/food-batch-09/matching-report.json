@@ -1,0 +1,308 @@
+{
+  "batch": 9,
+  "matched": 13,
+  "unassigned": 7,
+  "items": [
+    {
+      "source": "C:/Users/manib/Downloads/53b1a151-7519-42a8-9b14-4796713f51b5.png",
+      "sourceLabel": "Puri",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 0,
+        "top": 90,
+        "width": 305,
+        "height": 345
+      },
+      "downloadImage": "images/puri.webp",
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/53b1a151-7519-42a8-9b14-4796713f51b5.png",
+      "sourceLabel": "Poori Masala",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 310,
+        "top": 90,
+        "width": 301,
+        "height": 345
+      },
+      "downloadImage": "images/poori-masala.webp",
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/53b1a151-7519-42a8-9b14-4796713f51b5.png",
+      "sourceLabel": "Vada",
+      "id": "osb_cat_breakfast_11",
+      "menuName": "Vadai",
+      "image": "/food-images/vadai.webp",
+      "rect": {
+        "left": 616,
+        "top": 90,
+        "width": 305,
+        "height": 345
+      },
+      "downloadImage": "images/vada.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/53b1a151-7519-42a8-9b14-4796713f51b5.png",
+      "sourceLabel": "Sambar Vada",
+      "id": "osb_cat_breakfast_12",
+      "menuName": "Sambar Vadai",
+      "image": "/food-images/sambar-vadai.webp",
+      "rect": {
+        "left": 926,
+        "top": 90,
+        "width": 302,
+        "height": 345
+      },
+      "downloadImage": "images/sambar-vada.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/53b1a151-7519-42a8-9b14-4796713f51b5.png",
+      "sourceLabel": "Masala Vada",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 1233,
+        "top": 90,
+        "width": 303,
+        "height": 345
+      },
+      "downloadImage": "images/masala-vada.webp",
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/53b1a151-7519-42a8-9b14-4796713f51b5.png",
+      "sourceLabel": "Bonda",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 0,
+        "top": 565,
+        "width": 305,
+        "height": 345
+      },
+      "downloadImage": "images/bonda.webp",
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/53b1a151-7519-42a8-9b14-4796713f51b5.png",
+      "sourceLabel": "Uzhunnu Vada",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 310,
+        "top": 565,
+        "width": 301,
+        "height": 345
+      },
+      "downloadImage": "images/uzhunnu-vada.webp",
+      "status": "duplicate Vadai picture; explicit Vada used"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/53b1a151-7519-42a8-9b14-4796713f51b5.png",
+      "sourceLabel": "Paniyaram",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 616,
+        "top": 565,
+        "width": 305,
+        "height": 345
+      },
+      "downloadImage": "images/paniyaram.webp",
+      "status": "ambiguous Paniyaram variant"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/53b1a151-7519-42a8-9b14-4796713f51b5.png",
+      "sourceLabel": "Kothu Parotta",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "rect": {
+        "left": 926,
+        "top": 565,
+        "width": 302,
+        "height": 345
+      },
+      "downloadImage": "images/kothu-parotta.webp",
+      "status": "no matching existing product"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/53b1a151-7519-42a8-9b14-4796713f51b5.png",
+      "sourceLabel": "Idiyappam with Coconut Milk",
+      "id": "osb_cat_breakfast_10",
+      "menuName": "Idiyappam Thengai Paal",
+      "image": "/food-images/idiyappam-thengai-paal.webp",
+      "rect": {
+        "left": 1233,
+        "top": 565,
+        "width": 303,
+        "height": 345
+      },
+      "downloadImage": "images/idiyappam-with-coconut-milk.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/7863d7a7-556f-4bc0-824a-f7f128676bfb.png",
+      "sourceLabel": "Avaram Poo Tea",
+      "id": "osb_cat_herbal_drink_3",
+      "menuName": "Avaram Poo Tea",
+      "image": "/food-images/avaram-poo-tea.webp",
+      "rect": {
+        "left": 0,
+        "top": 55,
+        "width": 305,
+        "height": 355
+      },
+      "downloadImage": "images/avaram-poo-tea.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/7863d7a7-556f-4bc0-824a-f7f128676bfb.png",
+      "sourceLabel": "Hibiscus Tea",
+      "id": "osb_cat_herbal_drink_4",
+      "menuName": "Hibiscus Tea",
+      "image": "/food-images/hibiscus-tea.webp",
+      "rect": {
+        "left": 310,
+        "top": 55,
+        "width": 301,
+        "height": 355
+      },
+      "downloadImage": "images/hibiscus-tea.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/7863d7a7-556f-4bc0-824a-f7f128676bfb.png",
+      "sourceLabel": "Samanthi Tea",
+      "id": "osb_cat_herbal_drink_5",
+      "menuName": "Samanthi Tea",
+      "image": "/food-images/samanthi-tea.webp",
+      "rect": {
+        "left": 616,
+        "top": 55,
+        "width": 305,
+        "height": 355
+      },
+      "downloadImage": "images/samanthi-tea.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/7863d7a7-556f-4bc0-824a-f7f128676bfb.png",
+      "sourceLabel": "ABC Malt",
+      "id": "osb_cat_herbal_drink_6",
+      "menuName": "ABC Malt",
+      "image": "/food-images/abc-malt.webp",
+      "rect": {
+        "left": 926,
+        "top": 55,
+        "width": 302,
+        "height": 355
+      },
+      "downloadImage": "images/abc-malt.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/7863d7a7-556f-4bc0-824a-f7f128676bfb.png",
+      "sourceLabel": "Paruthi Paal",
+      "id": "osb_cat_herbal_drink_7",
+      "menuName": "Paruthi Paal",
+      "image": "/food-images/paruthi-paal.webp",
+      "rect": {
+        "left": 1233,
+        "top": 55,
+        "width": 303,
+        "height": 355
+      },
+      "downloadImage": "images/paruthi-paal.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/7863d7a7-556f-4bc0-824a-f7f128676bfb.png",
+      "sourceLabel": "Blue Curacao",
+      "id": "osb_cat_mocktail_1",
+      "menuName": "Blue Curacao",
+      "image": "/food-images/blue-curacao.webp",
+      "rect": {
+        "left": 0,
+        "top": 495,
+        "width": 305,
+        "height": 420
+      },
+      "downloadImage": "images/blue-curacao.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/7863d7a7-556f-4bc0-824a-f7f128676bfb.png",
+      "sourceLabel": "Mint & Lime",
+      "id": "osb_cat_mocktail_2",
+      "menuName": "Mint & Lime",
+      "image": "/food-images/mint-and-lime.webp",
+      "rect": {
+        "left": 310,
+        "top": 495,
+        "width": 301,
+        "height": 420
+      },
+      "downloadImage": "images/mint-and-lime.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/7863d7a7-556f-4bc0-824a-f7f128676bfb.png",
+      "sourceLabel": "Pina Colada",
+      "id": "osb_cat_mocktail_3",
+      "menuName": "Pina Colada",
+      "image": "/food-images/pina-colada.webp",
+      "rect": {
+        "left": 616,
+        "top": 495,
+        "width": 305,
+        "height": 420
+      },
+      "downloadImage": "images/pina-colada.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/7863d7a7-556f-4bc0-824a-f7f128676bfb.png",
+      "sourceLabel": "Virgin Mojito",
+      "id": "osb_cat_mocktail_4",
+      "menuName": "Virgin Mojito",
+      "image": "/food-images/virgin-mojito.webp",
+      "rect": {
+        "left": 926,
+        "top": 495,
+        "width": 302,
+        "height": 420
+      },
+      "downloadImage": "images/virgin-mojito.webp",
+      "status": "replaced"
+    },
+    {
+      "source": "C:/Users/manib/Downloads/7863d7a7-556f-4bc0-824a-f7f128676bfb.png",
+      "sourceLabel": "Butter Milk",
+      "id": "osb_cat_cold_beverages_1",
+      "menuName": "Butter Milk",
+      "image": "/food-images/butter-milk.webp",
+      "rect": {
+        "left": 1233,
+        "top": 495,
+        "width": 303,
+        "height": 420
+      },
+      "downloadImage": "images/butter-milk.webp",
+      "status": "replaced"
+    }
+  ],
+  "verification": "13 matched product images replaced. Other 85 images and all application source code unchanged. Captions removed; native crop pixels preserved."
+}

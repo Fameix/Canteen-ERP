@@ -1,0 +1,149 @@
+{
+  "batch": 5,
+  "source": "C:/Users/manib/Downloads/3fb6bfd1-119e-4b02-8db4-0643c6a1de7b.png",
+  "matched": 2,
+  "unmatched": 8,
+  "items": [
+    {
+      "sourceLabel": "Chicken Curry",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "downloadImage": "images/chicken-curry.webp",
+      "rect": {
+        "left": 0,
+        "top": 120,
+        "width": 305,
+        "height": 325
+      },
+      "status": "unmatched - no existing menu product"
+    },
+    {
+      "sourceLabel": "Mutton Curry",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "downloadImage": "images/mutton-curry.webp",
+      "rect": {
+        "left": 310,
+        "top": 120,
+        "width": 301,
+        "height": 325
+      },
+      "status": "unmatched - no existing menu product"
+    },
+    {
+      "sourceLabel": "Fish Curry",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "downloadImage": "images/fish-curry.webp",
+      "rect": {
+        "left": 616,
+        "top": 120,
+        "width": 305,
+        "height": 325
+      },
+      "status": "unmatched - no existing menu product"
+    },
+    {
+      "sourceLabel": "Prawn Curry",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "downloadImage": "images/prawn-curry.webp",
+      "rect": {
+        "left": 926,
+        "top": 120,
+        "width": 302,
+        "height": 325
+      },
+      "status": "unmatched - no existing menu product"
+    },
+    {
+      "sourceLabel": "Chicken 65",
+      "id": "osb_cat_chicken_4",
+      "menuName": "Chicken 65",
+      "image": "/food-images/chicken-65.webp",
+      "downloadImage": "images/chicken-65.webp",
+      "rect": {
+        "left": 1233,
+        "top": 120,
+        "width": 303,
+        "height": 325
+      },
+      "status": "replaced"
+    },
+    {
+      "sourceLabel": "Fish Fry",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "downloadImage": "images/fish-fry.webp",
+      "rect": {
+        "left": 0,
+        "top": 565,
+        "width": 305,
+        "height": 340
+      },
+      "status": "unmatched - no existing menu product"
+    },
+    {
+      "sourceLabel": "Prawn Fry",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "downloadImage": "images/prawn-fry.webp",
+      "rect": {
+        "left": 310,
+        "top": 565,
+        "width": 301,
+        "height": 340
+      },
+      "status": "unmatched - no existing menu product"
+    },
+    {
+      "sourceLabel": "Chicken Pepper Fry",
+      "id": "osb_cat_chicken_3",
+      "menuName": "Pepper Chicken",
+      "image": "/food-images/pepper-chicken.webp",
+      "downloadImage": "images/chicken-pepper-fry.webp",
+      "rect": {
+        "left": 616,
+        "top": 565,
+        "width": 305,
+        "height": 340
+      },
+      "status": "replaced"
+    },
+    {
+      "sourceLabel": "Mutton Chukka",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "downloadImage": "images/mutton-chukka.webp",
+      "rect": {
+        "left": 926,
+        "top": 565,
+        "width": 302,
+        "height": 340
+      },
+      "status": "unmatched - no existing menu product"
+    },
+    {
+      "sourceLabel": "Kothu Parotta",
+      "id": null,
+      "menuName": null,
+      "image": null,
+      "downloadImage": "images/kothu-parotta.webp",
+      "rect": {
+        "left": 1233,
+        "top": 565,
+        "width": 303,
+        "height": 340
+      },
+      "status": "unmatched - no existing menu product"
+    }
+  ],
+  "note": "Chicken Pepper Fry matched to existing Pepper Chicken. No products added or renamed. Prices, IDs, billing code, and other 96 site images unchanged."
+}
