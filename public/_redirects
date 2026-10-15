@@ -1,0 +1,4 @@
+/bills/:id/     /bills/_/       200
+/bills/:id      /bills/_/       200
+/menu/:id/edit/ /menu/_/edit/   200
+/menu/:id/edit  /menu/_/edit/   200
