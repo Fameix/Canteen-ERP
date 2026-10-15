@@ -7,7 +7,7 @@ import {
   Receipt,
   ClipboardList,
   UtensilsCrossed,
-  MoreHorizontal,
+  CircleUser,
 } from "lucide-react"
 import { buttonVariants } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
@@ -18,7 +18,7 @@ const navItems = [
   { href: "/billing", icon: Receipt, label: "Billing" },
   { href: "/bills", icon: ClipboardList, label: "Bills" },
   { href: "/menu", icon: UtensilsCrossed, label: "Menu" },
-  { href: "/more", icon: MoreHorizontal, label: "More" },
+  { href: "/more", icon: CircleUser, label: "Profile" },
 ]
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
