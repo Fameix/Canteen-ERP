@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import {
   Home,
@@ -12,6 +13,8 @@ import {
 import { buttonVariants } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { cn } from "@/lib/utils"
+import { DeviceGate } from "@/components/device-gate"
+import { SecondaryPageBack } from "@/components/secondary-page-back"
 
 const navItems = [
   { href: "/home", icon: Home, label: "Home" },
@@ -30,14 +33,16 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         className="fixed inset-x-0 bottom-0 z-50 border-t bg-background lg:inset-x-auto lg:inset-y-0 lg:left-0 lg:flex lg:w-56 lg:flex-col lg:border-t-0 lg:border-r"
         style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
       >
-        <div className="hidden items-center gap-3 p-6 lg:flex">
-          <div className="flex size-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-            <UtensilsCrossed className="size-4" />
-          </div>
-          <div>
-            <p className="text-sm font-semibold tracking-tight">Canteen ERP</p>
-            <p className="text-xs text-muted-foreground">Billing workspace</p>
-          </div>
+        <div className="hidden items-center justify-center p-6 lg:flex">
+          <Image
+            src="/branding/om-saravana-bhava-logo-transparent.png"
+            alt="Om Saravana Bhava"
+            width={521}
+            height={552}
+            unoptimized
+            priority
+            className="h-16 w-auto shrink-0 rounded-lg object-contain"
+          />
         </div>
         <Separator className="hidden lg:block" />
         <div className="flex h-16 items-center gap-1 px-2 lg:h-auto lg:flex-col lg:items-stretch lg:gap-1 lg:p-3">
@@ -68,7 +73,12 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         </div>
       </nav>
       <main className="min-w-0 pb-[calc(5rem+env(safe-area-inset-bottom))] lg:ml-56 lg:pb-8">
-        <div className="mx-auto max-w-7xl p-4 md:p-8">{children}</div>
+        <div className="w-full min-w-0 p-4 md:p-8">
+          <DeviceGate>
+            <SecondaryPageBack pathname={pathname} />
+            {children}
+          </DeviceGate>
+        </div>
       </main>
     </div>
   )

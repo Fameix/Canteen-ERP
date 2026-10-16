@@ -17,8 +17,12 @@ export function ProductImage({ src, alt }: { src?: string; alt: string }) {
       height={400}
       unoptimized
       loading="lazy"
-      className="size-full object-cover"
-      onError={imageSource === FALLBACK_IMAGE ? undefined : () => setFailedSource(src ?? null)}
+      className="block size-full object-cover object-center"
+      onError={
+        imageSource === FALLBACK_IMAGE
+          ? undefined
+          : () => setFailedSource(src ?? null)
+      }
     />
   )
 }

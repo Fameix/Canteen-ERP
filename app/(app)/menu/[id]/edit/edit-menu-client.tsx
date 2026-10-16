@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { useRouter, useParams } from "next/navigation"
-import { ArrowLeft, Loader2 } from "lucide-react"
+import { Loader2 } from "lucide-react"
 import { useMenu } from "@/hooks/use-menu"
 import { ProductFields } from "@/components/product-fields"
 import { PageHeader } from "@/components/workspace-ui"
@@ -20,7 +20,7 @@ import type { MenuItem } from "@/lib/types"
 
 export default function EditMenuItemPage() {
   const params = useParams()
-  const id     = (params?.id as string) ?? ""
+  const id = (params?.id as string) ?? ""
   const router = useRouter()
   const { items, categories, updateItem } = useMenu()
   const [loading, setLoading] = useState(false)
@@ -88,14 +88,8 @@ export default function EditMenuItemPage() {
       <PageHeader
         title="Edit product"
         description="Set up product details and availability."
-        backAction={
-          <Button variant="outline" onClick={() => router.push("/menu")}>
-            <ArrowLeft data-icon="inline-start" />
-            Back to menu
-          </Button>
-        }
       />
-      <form onSubmit={handleSubmit} className="w-full max-w-2xl">
+      <form onSubmit={handleSubmit} className="w-full min-w-0">
         <Card>
           <CardHeader>
             <CardTitle>Product details</CardTitle>

@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
-import { ArrowLeft, Loader2 } from "lucide-react"
-import { getHotel, saveHotel } from "@/lib/storage"
+import { Loader2 } from "lucide-react"
+import { getHotel, saveHotel, getAuth, saveOwnerName } from "@/lib/storage"
 import { DEMO_HOTEL } from "@/lib/seed-data"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
@@ -22,6 +22,7 @@ import type { Hotel } from "@/lib/types"
 export default function SettingsPage() {
   const router = useRouter()
   const [hotel, setHotel] = useState<Hotel>(DEMO_HOTEL)
+  const [ownerName, setOwnerName] = useState("")
   const [loading, setLoading] = useState(false)
   const [saved, setSaved] = useState(false)
 
@@ -29,13 +30,16 @@ export default function SettingsPage() {
     // Initialize the editable form from browser storage after hydration.
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setHotel(getHotel())
+    setOwnerName(getHotel().ownerName ?? getAuth()?.name ?? "Owner")
   }, [])
 
   async function handleSave(e: React.FormEvent) {
     e.preventDefault()
+    if (!ownerName.trim()) return
     setLoading(true)
     await new Promise((r) => setTimeout(r, 400))
     saveHotel(hotel)
+    saveOwnerName(ownerName)
     setLoading(false)
     setSaved(true)
     setTimeout(() => setSaved(false), 2000)
@@ -44,19 +48,45 @@ export default function SettingsPage() {
   return (
     <div className="flex flex-col gap-6">
       <PageHeader
-        title="Hotel settings"
-        description="Manage your business details and receipt preferences."
-        backAction={
-          <Button variant="outline" onClick={() => router.push("/more")}>
-            <ArrowLeft data-icon="inline-start" />
-            Back
-          </Button>
-        }
+        title="Profile settings"
+        description="Edit your owner name, business details, and receipt preferences."
       />
       <form
         onSubmit={handleSave}
-        className="flex w-full max-w-2xl flex-col gap-6"
+        className="flex w-full min-w-0 flex-col gap-6"
       >
+        <Card>
+          <CardHeader>
+            <CardTitle>Profile details</CardTitle>
+            <CardDescription>
+              Your name appears on your profile.
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <FieldGroup>
+              <Field>
+                <FieldLabel htmlFor="owner-name">Owner name</FieldLabel>
+                <Input
+                  id="owner-name"
+                  autoComplete="name"
+                  value={ownerName}
+                  onChange={(event) => setOwnerName(event.target.value)}
+                  required
+                  pattern=".*\S.*"
+                  title="Enter the owner's name"
+                />
+              </Field>
+            </FieldGroup>
+            <Button
+              type="button"
+              variant="outline"
+              className="mt-4"
+              onClick={() => router.push("/login/?changePasscode=1")}
+            >
+              Change site passcode
+            </Button>
+          </CardContent>
+        </Card>
         <Card>
           <CardHeader>
             <CardTitle>Business information</CardTitle>

@@ -3,7 +3,6 @@
 import { useState } from "react"
 import { useRouter, useParams } from "next/navigation"
 import {
-  ArrowLeft,
   CheckCircle2,
   Clock,
   Printer,
@@ -26,32 +25,33 @@ import type { PaymentMethod } from "@/lib/types"
 
 const METHOD_LABELS: Record<PaymentMethod, string> = {
   cash: "Cash",
-  upi:  "UPI",
+  upi: "UPI",
   card: "Card",
 }
 
-const METHODS: { id: PaymentMethod; label: string; icon: React.ElementType }[] = [
-  { id: "cash", label: "Cash",  icon: Banknote    },
-  { id: "upi",  label: "UPI",   icon: Smartphone  },
-  { id: "card", label: "Card",  icon: CreditCard  },
-]
+const METHODS: { id: PaymentMethod; label: string; icon: React.ElementType }[] =
+  [
+    { id: "cash", label: "Cash", icon: Banknote },
+    { id: "upi", label: "UPI", icon: Smartphone },
+    { id: "card", label: "Card", icon: CreditCard },
+  ]
 
 export default function BillDetailPage() {
-  const params  = useParams()
-  const id      = (params?.id as string) ?? ""
-  const router  = useRouter()
+  const params = useParams()
+  const id = (params?.id as string) ?? ""
+  const router = useRouter()
   const { bill, loading, markAsPaid } = useBill(id)
 
   const [showPaymentPicker, setShowPaymentPicker] = useState(false)
-  const [selectedMethod, setSelectedMethod]       = useState<PaymentMethod>("cash")
-  const [paying,     setPaying]     = useState(false)
+  const [selectedMethod, setSelectedMethod] = useState<PaymentMethod>("cash")
+  const [paying, setPaying] = useState(false)
   const [isPrinting, setIsPrinting] = useState(false)
 
   const hotel = getHotel()
 
   async function handleMarkAsPaid() {
     setPaying(true)
-    await new Promise(r => setTimeout(r, 400))
+    await new Promise((r) => setTimeout(r, 400))
     markAsPaid(selectedMethod)
     setPaying(false)
     setShowPaymentPicker(false)
@@ -91,14 +91,6 @@ export default function BillDetailPage() {
       <div className="sticky top-0 z-10 border-b border-border bg-background/95 backdrop-blur-sm">
         <div className="flex items-center justify-between px-4 py-3">
           <div className="flex items-center gap-3">
-            <Button
-              variant="ghost"
-              size="icon"
-              aria-label="Go back"
-              onClick={() => router.back()}
-            >
-              <ArrowLeft className="size-5" />
-            </Button>
             <div>
               <h1 className="font-mono text-sm font-bold">{bill.billNumber}</h1>
               <p className="text-xs text-muted-foreground">
@@ -132,7 +124,9 @@ export default function BillDetailPage() {
           )}
           <div>
             <p className="font-semibold">
-              {bill.paymentStatus === "paid" ? "Payment Received" : "Payment Pending"}
+              {bill.paymentStatus === "paid"
+                ? "Payment Received"
+                : "Payment Pending"}
             </p>
             {bill.payment && (
               <p className="text-xs text-muted-foreground">
@@ -160,7 +154,7 @@ export default function BillDetailPage() {
               <span className="w-16 text-right">Price</span>
               <span className="w-16 text-right">Total</span>
             </div>
-            {bill.items.map(item => (
+            {bill.items.map((item) => (
               <div
                 key={item.menuItemId}
                 className="flex items-start justify-between gap-2 text-sm"
@@ -168,7 +162,9 @@ export default function BillDetailPage() {
                 <div className="min-w-0 flex-1">
                   <p className="leading-tight">{item.name}</p>
                   {item.tamilName && (
-                    <p className="text-xs text-muted-foreground">{item.tamilName}</p>
+                    <p className="text-xs text-muted-foreground">
+                      {item.tamilName}
+                    </p>
                   )}
                 </div>
                 <span className="w-8 text-center">{item.quantity}</span>
@@ -236,7 +232,7 @@ export default function BillDetailPage() {
                 <ToggleGroup
                   variant="outline"
                   value={[selectedMethod]}
-                  onValueChange={vals => {
+                  onValueChange={(vals) => {
                     const next = vals[0]
                     if (next === "cash" || next === "upi" || next === "card")
                       setSelectedMethod(next)

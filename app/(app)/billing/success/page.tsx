@@ -64,7 +64,7 @@ function BillSuccessContent() {
       </p>
 
       {/* Bill summary card */}
-      <div className="mb-8 w-full max-w-sm rounded-xl border border-border bg-card p-5">
+      <div className="mb-8 w-full rounded-xl border border-border bg-card p-5">
         <div className="flex flex-col gap-3">
           <div className="flex justify-between">
             <span className="text-sm text-muted-foreground">Bill Number</span>
@@ -100,7 +100,7 @@ function BillSuccessContent() {
       </div>
 
       {/* Actions */}
-      <div className="flex w-full max-w-sm flex-col gap-3">
+      <div className="flex w-full flex-col gap-3">
         <Button
           size="lg"
           className="w-full"

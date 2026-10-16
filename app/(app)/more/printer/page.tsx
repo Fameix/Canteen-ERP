@@ -1,9 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { useRouter } from "next/navigation"
 import {
-  ArrowLeft,
   Bluetooth,
   BluetoothOff,
   BluetoothSearching,
@@ -14,7 +12,11 @@ import {
   Zap,
   Info,
 } from "lucide-react"
-import { usePrinterStore, webBluetoothSupported, type PrinterStatus } from "@/lib/printer-store"
+import {
+  usePrinterStore,
+  webBluetoothSupported,
+  type PrinterStatus,
+} from "@/lib/printer-store"
 import { getHotel } from "@/lib/storage"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -34,35 +36,50 @@ import { PageHeader } from "@/components/workspace-ui"
 
 function statusIcon(status: PrinterStatus) {
   switch (status) {
-    case "connected":    return <CheckCircle2 className="size-5 text-foreground" />
-    case "connecting":   return <BluetoothSearching className="size-5 animate-pulse text-foreground" />
-    case "error":        return <AlertCircle className="size-5 text-destructive" />
-    default:             return <BluetoothOff className="size-5 text-muted-foreground" />
+    case "connected":
+      return <CheckCircle2 className="size-5 text-foreground" />
+    case "connecting":
+      return (
+        <BluetoothSearching className="size-5 animate-pulse text-foreground" />
+      )
+    case "error":
+      return <AlertCircle className="size-5 text-destructive" />
+    default:
+      return <BluetoothOff className="size-5 text-muted-foreground" />
   }
 }
 
 function statusLabel(status: PrinterStatus, deviceName: string | null) {
   switch (status) {
-    case "connected":  return deviceName ?? "Connected"
-    case "connecting": return "Connecting…"
-    case "error":      return "Connection error"
-    default:           return "Not connected"
+    case "connected":
+      return deviceName ?? "Connected"
+    case "connecting":
+      return "Connecting…"
+    case "error":
+      return "Connection error"
+    default:
+      return "Not connected"
   }
 }
 
-function statusBadgeVariant(status: PrinterStatus): "default" | "outline" | "secondary" | "destructive" {
+function statusBadgeVariant(
+  status: PrinterStatus
+): "default" | "outline" | "secondary" | "destructive" {
   switch (status) {
-    case "connected":  return "default"
-    case "connecting": return "secondary"
-    case "error":      return "destructive"
-    default:           return "outline"
+    case "connected":
+      return "default"
+    case "connecting":
+      return "secondary"
+    case "error":
+      return "destructive"
+    default:
+      return "outline"
   }
 }
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function PrinterSettingsPage() {
-  const router = useRouter()
   const {
     status,
     deviceName,
@@ -76,12 +93,14 @@ export default function PrinterSettingsPage() {
     clearError,
   } = usePrinterStore()
 
-  const [testing, setTesting]     = useState(false)
+  const [testing, setTesting] = useState(false)
   const [testResult, setTestResult] = useState<"ok" | "fail" | null>(null)
   // Web Bluetooth availability is browser-side only
   const [btSupported, setBtSupported] = useState<boolean | null>(null)
 
   useEffect(() => {
+    // Read browser capabilities after hydration so static HTML stays consistent.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setBtSupported(webBluetoothSupported())
   }, [])
 
@@ -104,12 +123,6 @@ export default function PrinterSettingsPage() {
       <PageHeader
         title="Printer Settings"
         description="Manage your Bluetooth thermal printer connection."
-        backAction={
-          <Button variant="outline" onClick={() => router.push("/more")}>
-            <ArrowLeft data-icon="inline-start" />
-            Back
-          </Button>
-        }
       />
 
       {/* ── Status card ── */}
@@ -128,9 +141,13 @@ export default function PrinterSettingsPage() {
               </div>
             </div>
             <Badge variant={statusBadgeVariant(status)}>
-              {status === "connecting" ? "Connecting" :
-               status === "connected"  ? "Connected"  :
-               status === "error"      ? "Error"      : "Offline"}
+              {status === "connecting"
+                ? "Connecting"
+                : status === "connected"
+                  ? "Connected"
+                  : status === "error"
+                    ? "Error"
+                    : "Offline"}
             </Badge>
           </div>
         </CardHeader>
@@ -158,11 +175,7 @@ export default function PrinterSettingsPage() {
               {status === "connecting" ? "Searching…" : "Connect Printer"}
             </Button>
           ) : (
-            <Button
-              variant="outline"
-              className="flex-1"
-              onClick={disconnect}
-            >
+            <Button variant="outline" className="flex-1" onClick={disconnect}>
               <BluetoothOff data-icon="inline-start" />
               Disconnect
             </Button>
@@ -252,14 +265,22 @@ export default function PrinterSettingsPage() {
             <p className="mb-2 font-medium">Browser support (Web Bluetooth)</p>
             <div className="flex flex-col gap-1 text-muted-foreground">
               {[
-                { label: "Chrome on Android 6+",  ok: true  },
-                { label: "Chrome on Windows / macOS / Linux", ok: true  },
-                { label: "Firefox",                ok: false },
-                { label: "Safari / iOS",           ok: false },
-                { label: "Samsung Internet",       ok: null  },
+                { label: "Chrome on Android 6+", ok: true },
+                { label: "Chrome on Windows / macOS / Linux", ok: true },
+                { label: "Firefox", ok: false },
+                { label: "Safari / iOS", ok: false },
+                { label: "Samsung Internet", ok: null },
               ].map(({ label, ok }) => (
                 <span key={label} className="flex items-center gap-2">
-                  <span className={ok === true ? "text-foreground" : ok === false ? "text-destructive" : "text-muted-foreground"}>
+                  <span
+                    className={
+                      ok === true
+                        ? "text-foreground"
+                        : ok === false
+                          ? "text-destructive"
+                          : "text-muted-foreground"
+                    }
+                  >
                     {ok === true ? "✓" : ok === false ? "✗" : "~"}
                   </span>
                   {label}
@@ -269,7 +290,8 @@ export default function PrinterSettingsPage() {
             </div>
             {btSupported === false && (
               <p className="mt-2 rounded-md border border-destructive/30 bg-destructive/10 p-2 text-xs text-destructive">
-                Web Bluetooth is not available in this browser or requires HTTPS.
+                Web Bluetooth is not available in this browser or requires
+                HTTPS.
               </p>
             )}
           </div>
@@ -287,7 +309,11 @@ export default function PrinterSettingsPage() {
               <span className="flex items-center gap-2">
                 <span className="text-destructive">✗</span>
                 Bluetooth Classic / SPP printers — browser cannot access SPP.
-                Use <strong className="text-foreground">Print via Browser</strong> for these.
+                Use{" "}
+                <strong className="text-foreground">
+                  Print via Browser
+                </strong>{" "}
+                for these.
               </span>
             </div>
           </div>
@@ -298,11 +324,21 @@ export default function PrinterSettingsPage() {
           <div>
             <p className="mb-2 font-medium">How it works</p>
             <ol className="flex list-decimal flex-col gap-1 pl-4 text-muted-foreground">
-              <li>Turn on your BLE printer and ensure it is in pairing mode.</li>
-              <li>Tap <strong className="text-foreground">Connect Printer</strong> — the OS will show a device list.</li>
-              <li>Select your printer. The app probes for known ESC/POS services.</li>
+              <li>
+                Turn on your BLE printer and ensure it is in pairing mode.
+              </li>
+              <li>
+                Tap <strong className="text-foreground">Connect Printer</strong>{" "}
+                — the OS will show a device list.
+              </li>
+              <li>
+                Select your printer. The app probes for known ESC/POS services.
+              </li>
               <li>If detected, receipts print via BLE on every payment.</li>
-              <li>If connection fails, the app falls back to browser print automatically.</li>
+              <li>
+                If connection fails, the app falls back to browser print
+                automatically.
+              </li>
             </ol>
           </div>
 
@@ -314,14 +350,14 @@ export default function PrinterSettingsPage() {
               <Printer className="size-3.5" />
               Bluetooth Classic / SPP printers
             </div>
-            For printers that only support Bluetooth Classic (most budget
-            58 mm printers bought before 2022), a native Android bridge is
-            required. Wrap this PWA in a Capacitor shell and add
+            For printers that only support Bluetooth Classic (most budget 58 mm
+            printers bought before 2022), a native Android bridge is required.
+            Wrap this PWA in a Capacitor shell and add
             <code className="mx-1 rounded bg-muted px-1">
               cordova-plugin-bluetooth-serial
             </code>
-            for full SPP support. Until then, use the browser print dialog
-            which works with any USB or network printer as well.
+            for full SPP support. Until then, use the browser print dialog which
+            works with any USB or network printer as well.
           </div>
         </CardContent>
       </Card>

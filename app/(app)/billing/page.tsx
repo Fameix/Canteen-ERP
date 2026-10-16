@@ -25,7 +25,6 @@ import {
   CardTitle,
   CardDescription,
   CardContent,
-  CardFooter,
 } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
 import { Skeleton } from "@/components/ui/skeleton"
@@ -96,7 +95,7 @@ export default function BillingPage() {
   }
 
   return (
-    <div className="flex min-w-0 flex-col gap-6">
+    <div className="flex min-w-0 flex-col gap-6 pb-24">
       <PageHeader
         title="New bill"
         description="Choose products and build your customer's order."
@@ -278,34 +277,12 @@ export default function BillingPage() {
                 </Empty>
               )}
             </CardContent>
-            <CardFooter className="flex-col gap-2">
-              <Button
-                className="w-full"
-                disabled={!count}
-                onClick={() => router.push("/billing/review")}
-                aria-label="Checkout"
-              >
-                Checkout
-                <ArrowRight data-icon="inline-end" />
-              </Button>
-              {count > 0 && (
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="w-full"
-                  onClick={clearCart}
-                >
-                  <Trash2 data-icon="inline-start" />
-                  Clear order
-                </Button>
-              )}
-            </CardFooter>
           </Card>
         </aside>
       </div>
       {count > 0 && (
-        <div className="fixed right-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] left-0 z-40 border-t bg-background p-3 lg:bottom-0 lg:left-56 xl:hidden">
-          <div className="mx-auto flex max-w-7xl items-center justify-between gap-4">
+        <div className="pointer-events-none fixed right-0 bottom-[calc(5rem+env(safe-area-inset-bottom))] left-0 z-40 px-4 lg:bottom-4 lg:left-56">
+          <div className="pointer-events-auto mx-auto flex w-full max-w-lg items-center justify-between gap-4 rounded-2xl border bg-background p-3 shadow-lg">
             <div className="flex items-center gap-2">
               <Button
                 variant="ghost"

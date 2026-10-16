@@ -3,7 +3,11 @@ import { test } from "node:test"
 import { createElement } from "react"
 import { renderToStaticMarkup } from "react-dom/server"
 import { PathnameContext } from "next/dist/shared/lib/hooks-client-context.shared-runtime"
-import AppLayout from "../app/(app)/layout"
+import { createRequire } from "node:module"
+// Load Next's CommonJS image export through the matching module interop.
+const { default: AppLayout } = createRequire(import.meta.url)(
+  "../app/(app)/layout.tsx"
+)
 
 for (const [pathname, selected] of [
   ["/home", "/home"],

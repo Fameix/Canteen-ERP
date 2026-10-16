@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation"
 import {
   BarChart3,
-  Settings,
+  Pencil,
   LogOut,
   ArrowUpRight,
   UtensilsCrossed,
@@ -20,6 +20,7 @@ import { Button } from "@/components/ui/button"
 import {
   Card,
   CardHeader,
+  CardAction,
   CardTitle,
   CardDescription,
   CardContent,
@@ -30,8 +31,8 @@ import { PageHeader } from "@/components/workspace-ui"
 
 export default function ProfilePage() {
   const router = useRouter()
-  const hotel  = getHotel()
-  const user   = getAuth()
+  const hotel = getHotel()
+  const user = getAuth()
 
   return (
     <div className="flex flex-col gap-6">
@@ -41,17 +42,32 @@ export default function ProfilePage() {
       />
 
       {/* ── Profile card ── */}
-      <Card className="max-w-xl">
+      <Card className="w-full">
         <CardHeader>
           <div className="flex items-center gap-4">
             <div className="flex size-14 items-center justify-center rounded-full bg-primary/10 text-primary">
               <CircleUser className="size-7" />
             </div>
             <div>
-              <CardTitle className="text-lg">{user?.name ?? "Owner"}</CardTitle>
-              <CardDescription className="capitalize">{user?.role ?? "owner"}</CardDescription>
+              <CardTitle className="text-lg">
+                {hotel.ownerName ?? user?.name ?? "Owner"}
+              </CardTitle>
+              <CardDescription className="capitalize">
+                {user?.role ?? "owner"}
+              </CardDescription>
             </div>
           </div>
+          <CardAction>
+            <Button
+              variant="outline"
+              size="icon"
+              aria-label="Edit profile and hotel settings"
+              title="Edit profile and hotel settings"
+              onClick={() => router.push("/more/settings")}
+            >
+              <Pencil />
+            </Button>
+          </CardAction>
         </CardHeader>
         <Separator />
         <CardContent className="mt-4 flex flex-col gap-3">
@@ -60,7 +76,9 @@ export default function ProfilePage() {
             <div>
               <p className="text-sm font-semibold">{hotel.name}</p>
               {hotel.gstin && (
-                <p className="text-xs text-muted-foreground">GSTIN: {hotel.gstin}</p>
+                <p className="text-xs text-muted-foreground">
+                  GSTIN: {hotel.gstin}
+                </p>
               )}
             </div>
           </div>
@@ -79,7 +97,9 @@ export default function ProfilePage() {
           {hotel.taxEnabled && (
             <div className="flex items-center gap-3">
               <BadgeCheck className="size-4 shrink-0 text-muted-foreground" />
-              <p className="text-sm text-muted-foreground">Tax: {hotel.taxRate}% enabled</p>
+              <p className="text-sm text-muted-foreground">
+                Tax: {hotel.taxRate}% enabled
+              </p>
             </div>
           )}
         </CardContent>
@@ -115,16 +135,10 @@ export default function ProfilePage() {
             action: "Manage menu",
           },
           {
-            icon: Settings,
-            title: "Hotel settings",
-            description: "Update your business details and receipts.",
-            href: "/more/settings",
-            action: "Open settings",
-          },
-          {
             icon: Printer,
             title: "Printer",
-            description: "Connect a BLE thermal printer for automatic receipts.",
+            description:
+              "Connect a BLE thermal printer for automatic receipts.",
             href: "/more/printer",
             action: "Printer settings",
           },

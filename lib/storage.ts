@@ -116,6 +116,16 @@ export function generateBillNumber(): string {
   return `B${dateStr}-${String(counter).padStart(4, "0")}`
 }
 
+// Persist the display name independently of the signed-in session.
+export function saveOwnerName(name: string): boolean {
+  const ownerName = name.trim()
+  if (!ownerName) return false
+  saveHotel({ ...getHotel(), ownerName })
+  const user = getAuth()
+  if (user) safeSet(KEYS.AUTH, { ...user, name: ownerName })
+  return true
+}
+
 // Auth
 export function getAuth(): User | null {
   return safeGet(KEYS.AUTH, null)
@@ -124,6 +134,10 @@ export function getAuth(): User | null {
 export function clearAuth(): void {
   if (typeof window !== "undefined") {
     localStorage.removeItem(KEYS.AUTH)
+    if (typeof sessionStorage !== "undefined") sessionStorage.removeItem("canteen_device_unlocked")
+    if (typeof sessionStorage !== "undefined") sessionStorage.removeItem("canteen_site_unlocked")
+    window.dispatchEvent?.(new Event("device-lock-change"))
+    window.dispatchEvent?.(new Event("site-lock-change"))
   }
 }
 

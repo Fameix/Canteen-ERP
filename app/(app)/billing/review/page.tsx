@@ -1,7 +1,7 @@
 ﻿"use client"
 
 import { useRouter } from "next/navigation"
-import { ArrowLeft, Minus, Plus, ShoppingCart } from "lucide-react"
+import { Minus, Plus, ShoppingCart } from "lucide-react"
 import {
   useCartStore,
   cartTotalMinor,
@@ -38,12 +38,6 @@ export default function BillReviewPage() {
       <PageHeader
         title="Review Bill"
         description={`${count} items in your current order.`}
-        backAction={
-          <Button variant="outline" onClick={() => router.push("/billing")}>
-            <ArrowLeft data-icon="inline-start" />
-            Continue adding
-          </Button>
-        }
       />
       {!items.length ? (
         <Empty className="border">

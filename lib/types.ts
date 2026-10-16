@@ -7,6 +7,7 @@ export type BillStatus = "draft" | "confirmed" | "voided"
 export type UserRole = "owner" | "cashier"
 
 export interface Hotel {
+  ownerName?: string
   id: string
   name: string
   address: string

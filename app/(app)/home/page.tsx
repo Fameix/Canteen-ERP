@@ -1,7 +1,8 @@
 ﻿"use client"
 
-import { useState, useEffect, useMemo } from "react"
+import { useMemo } from "react"
 import { useRouter } from "next/navigation"
+import Image from "next/image"
 import {
   Plus,
   ArrowRight,
@@ -12,9 +13,7 @@ import {
   BarChart3,
 } from "lucide-react"
 import { useBills } from "@/hooks/use-bills"
-import { getHotel } from "@/lib/storage"
 import { formatPriceMinor } from "@/lib/store"
-import { DEMO_HOTEL } from "@/lib/seed-data"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import {
@@ -34,20 +33,11 @@ import {
   EmptyContent,
 } from "@/components/ui/empty"
 import { Skeleton } from "@/components/ui/skeleton"
-import { PageHeader } from "@/components/workspace-ui"
 import { format } from "date-fns"
-import type { Hotel } from "@/lib/types"
 
 export default function HomePage() {
   const router = useRouter()
   const { bills, loading } = useBills()
-  const [hotel, setHotel] = useState<Hotel>(DEMO_HOTEL)
-  useEffect(() => {
-    // Browser storage must be read after hydration to match server HTML.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setHotel(getHotel())
-  }, [])
-  const today = new Date()
   const todayStr = format(new Date(), "yyyy-MM-dd")
   const stats = useMemo(() => {
     const confirmed = bills.filter(
@@ -72,16 +62,24 @@ export default function HomePage() {
   const recent = bills.slice(0, 5)
   return (
     <div className="flex flex-col gap-6">
-      <PageHeader
-        title="Overview"
-        description={`${hotel.name} · ${format(today, "EEEE, d MMMM yyyy")}`}
-        actions={
-          <Button onClick={() => router.push("/billing")}>
-            <Plus data-icon="inline-start" />
-            New bill
-          </Button>
-        }
-      />
+      <header className="flex flex-wrap items-center justify-between gap-4 border-b pb-6">
+        <div className="flex flex-col gap-3">
+          <h1 className="sr-only">Om Saravana Bhava</h1>
+          <Image
+            src="/branding/om-saravana-bhava-logo-transparent.png"
+            alt="Om Saravana Bhava"
+            width={521}
+            height={552}
+            unoptimized
+            priority
+            className="h-24 w-auto self-start rounded-lg object-contain sm:h-28"
+          />
+        </div>
+        <Button onClick={() => router.push("/billing")}>
+          <Plus data-icon="inline-start" />
+          New bill
+        </Button>
+      </header>
       {loading ? (
         <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
           {Array.from({ length: 4 }, (_, i) => (

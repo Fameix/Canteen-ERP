@@ -2,13 +2,7 @@
 
 import { useState, Suspense } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
-import {
-  ArrowLeft,
-  Banknote,
-  Smartphone,
-  CreditCard,
-  Loader2,
-} from "lucide-react"
+import { Banknote, Smartphone, Loader2 } from "lucide-react"
 import { useCartStore, formatPriceMinor } from "@/lib/store"
 import { saveBill, generateBillNumber, getAuth } from "@/lib/storage"
 import { Button } from "@/components/ui/button"
@@ -37,7 +31,6 @@ const PAYMENT_METHODS: {
     icon: Smartphone,
     desc: "Google Pay, PhonePe, Paytm",
   },
-  { id: "card", label: "Card", icon: CreditCard, desc: "Debit or Credit card" },
 ]
 
 function PaymentContent() {
@@ -113,14 +106,8 @@ function PaymentContent() {
       <PageHeader
         title="Record payment"
         description="Choose how the customer is paying."
-        backAction={
-          <Button variant="outline" onClick={() => router.back()}>
-            <ArrowLeft data-icon="inline-start" />
-            Back
-          </Button>
-        }
       />
-      <Card className="w-full max-w-xl">
+      <Card className="w-full">
         <CardHeader>
           <CardTitle>Payment details</CardTitle>
           <CardDescription>
@@ -140,7 +127,7 @@ function PaymentContent() {
               value={[method]}
               onValueChange={(values) => {
                 const next = values[0]
-                if (next === "cash" || next === "upi" || next === "card")
+                if (next === "cash" || next === "upi")
                   setMethod(next)
               }}
               variant="outline"

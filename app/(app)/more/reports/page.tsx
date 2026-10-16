@@ -1,12 +1,10 @@
 "use client"
 
 import { useMemo } from "react"
-import { useRouter } from "next/navigation"
-import { ArrowLeft, Banknote, Smartphone, CreditCard } from "lucide-react"
+import { Banknote, Smartphone, CreditCard } from "lucide-react"
 import { useBills } from "@/hooks/use-bills"
 import { formatPriceMinor } from "@/lib/store"
 import { Skeleton } from "@/components/ui/skeleton"
-import { Button } from "@/components/ui/button"
 import {
   Card,
   CardHeader,
@@ -18,7 +16,6 @@ import { PageHeader } from "@/components/workspace-ui"
 import { format, subDays } from "date-fns"
 
 export default function ReportsPage() {
-  const router = useRouter()
   const { bills, loading } = useBills()
 
   const stats = useMemo(() => {
@@ -113,12 +110,6 @@ export default function ReportsPage() {
       <PageHeader
         title="Reports"
         description="Sales, payments, and product performance."
-        backAction={
-          <Button variant="outline" onClick={() => router.push("/more")}>
-            <ArrowLeft data-icon="inline-start" />
-            Back
-          </Button>
-        }
       />
       {loading ? (
         <div className="grid grid-cols-2 gap-4">

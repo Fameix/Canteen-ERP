@@ -37,8 +37,8 @@
  *   Write     bef8d6c9-9c21-4c9e-b632-bd58c1009f9f
  *
  * Profile 4 — Star Micronics BLE
- *   Service   18f0
- *   Write     2af1
+ *   Service   000018f0-0000-1000-8000-00805f9b34fb
+ *   Write     00002af1-0000-1000-8000-00805f9b34fb
  *
  * ⚠️  UNVERIFIED: Actual compatibility depends on your printer's firmware.
  *     Test with buildTestReceipt() before live use.
@@ -69,8 +69,8 @@ const BLE_PROFILES = [
   },
   {
     label: "Star Micronics BLE",
-    serviceUuid: "18f0",
-    writeUuid:   "2af1",
+    serviceUuid: "000018f0-0000-1000-8000-00805f9b34fb",
+    writeUuid:   "00002af1-0000-1000-8000-00805f9b34fb",
   },
 ] as const
 

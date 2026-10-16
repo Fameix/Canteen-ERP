@@ -1,0 +1,12 @@
+{
+  "name": "canteen-erp",
+  "account_id": "24c4150cdb7fbf610c665e53aeb19135",
+  "compatibility_date": "2026-10-15",
+  "workers_dev": true,
+  "keep_vars": true,
+  "assets": {
+    "directory": "./out",
+    "html_handling": "force-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
